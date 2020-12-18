@@ -1,0 +1,40 @@
+/* Header */
+
+.nav {
+    background-color: mediumturquoise;
+    display: flex;
+    justify-content: space-around; 
+    margin: 0px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    background-color: lightseagreen;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.li-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.li-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.li-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
