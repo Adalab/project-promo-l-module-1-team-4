@@ -1,15 +1,21 @@
-
 /* Header */
 body {
-    width: 320px;
+  width: 320px;
+
+    /*width: 290px;
+    height: 80px;
+    margin: 387px 15px 0;
+    padding: 14px 15px 16px;
+    background-color: var(--white);*/
+
 }
 .nav {
-    box-sizing: border-box;
-    background-color: mediumturquoise;
-    display: flex;
-    justify-content: space-around; 
-    margin: 0px;
-    padding: 20px;
+  box-sizing: border-box;
+  background-color: mediumturquoise;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 20px;
 }
 h1 {
   font-family: Arial;
@@ -42,12 +48,77 @@ li a {
 }
 /* Hero */
 .hero {
-    width: 320px;
-    height: 421px;
-    margin: 0 0 46px;
-    padding: 0 0 316px;
-  }
-  .img {
-    width: 320px;
-    height: 421px;
+  width: 320px;
+  height: 421px;
+  margin: 0 0 46px;
+  padding: 0 0 316px;
 }
+.img {
+  width: 320px;
+  height: 421px;
+}
+/*QUIENES SOMOS*/
+
+.about {
+  box-sizing: border-box;
+  background-color:pink;
+  width: 320px;
+  height: 2225px;
+  margin: 1083px 0 0;
+  padding: 30px 15px 45px;
+  /*background-color: var(--white);*/
+}
+.somos {
+  width: 193px;
+  height: 45px;
+  margin: 0 47.5px 30px 49.5px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+ 
+}
+.img-1 {
+  width: 180px;
+  height: 180px;
+  margin: 0 55px 15px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  
+  
+  
+  
+
+}
+.item {
+  /*width: 177px;*/
+  height: 45px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black)
+  .p{
+    width: 290px;
+  height: 200px;
+  margin: 60px 0 15px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+  }
+  
