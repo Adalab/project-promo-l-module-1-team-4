@@ -1,6 +1,10 @@
-/* Header */
 
+/* Header */
+body {
+    width: 320px;
+}
 .nav {
+    box-sizing: border-box;
     background-color: mediumturquoise;
     display: flex;
     justify-content: space-around; 
@@ -37,4 +41,15 @@ li a {
     font-family: Arial;
     text-decoration: none;
     color: white;
+}
+/* Hero */
+.hero {
+    width: 320px;
+    height: 421px;
+    margin: 0 0 46px;
+    padding: 0 0 316px;
+  }
+  .img {
+    width: 320px;
+    height: 421px;
 }
