@@ -20,6 +20,7 @@ body {
 h1 {
   font-family: Arial;
   color: white;
+  font-size: 17px;
   background-color: lightseagreen;
   text-align: center;
   margin: 0px;
@@ -45,6 +46,8 @@ li a {
   font-family: Arial;
   text-decoration: none;
   color: white;
+  font-size: 14px;
+  font-weight: bold;
 }
 /* Hero */
 .hero {
@@ -57,6 +60,27 @@ li a {
   width: 320px;
   height: 421px;
 }
+
+.lema {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    background-color: peachpuff;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+/* TEAM/EQUIPO */
+
+.team {
+    
+}
+
 /*QUIENES SOMOS*/
 
 .about {
@@ -121,4 +145,5 @@ li a {
   text-align: center;
   color: #54585a;
   }
+  
   
