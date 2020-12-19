@@ -145,5 +145,18 @@ li a {
   text-align: center;
   color: #54585a;
   }
-  
+
+  /* FOOTER */
+  .footer {
+    height: 250px;
+    border: 1px solid #b8b8b9;
+    position: relative;
+  }
+  .footer-copy {
+    font-family: "Open";
+    font-size: 14px;
+  }
+  .footer-ul {
+    list-style: none;
+  }
   
