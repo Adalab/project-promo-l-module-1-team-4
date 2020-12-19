@@ -1,20 +1,18 @@
+:root {
+  --blue-green: #099d8d;
+  --aqua: #14d9c4;
+  --dark-grey: #54585a;
+}
 /* Header */
 body {
   width: 320px;
   height: 4025px;
   background-color: #ffffff;
   border: solid red; 5px; 
-
-    /*width: 290px;
-    height: 80px;
-    margin: 387px 15px 0;
-    padding: 14px 15px 16px;
-    background-color: var(--white);*/
-
 }
 .nav {
   box-sizing: border-box;
-  background-color: mediumturquoise;
+  background-color: var(--aqua);
   display: flex;
   justify-content: space-between;
   margin: 0px;
@@ -30,7 +28,7 @@ h1 {
   line-height: 1.88;
   letter-spacing: normal;
   color: white;
-  background-color: lightseagreen;
+  background-color: var(--blue-green);
   text-align: center;
   margin: 0px;
   padding: 20px;
@@ -106,7 +104,7 @@ li a {
     font-family: Arial;
     font-size: 16px;
     text-align: center;
-    background-color: peachpuff;
+    background-color: #ffffff;
     display: block;
     position: relative;
     top: -20px;
@@ -123,9 +121,36 @@ li a {
   height: 579px;
   margin: 0px 0 0;
   padding: 0px;
-  background-color: red;
+  background-color: #ffffff;
 }
-
+.h2-equipo {
+  width: 89px;
+  height: 45px;
+  margin: 0 99.5px 15px 101.5px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--aqua);
+}
+.descripcion-equipo {
+  width: 290px;
+  height: 384px;
+  margin: 15px 0 0;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-grey);
+}
 .rectangulo2 {
   width: 320px;
   height: 579px;
@@ -133,6 +158,34 @@ li a {
   padding: 0px;
   opacity: 0.2;
   background-color: #b8b8b9;
+}
+/*La opacidad del rectangulo2 hace que el blue-green se vea mas claro. Hay que resolverlo*/
+.h3-fortalezas {
+  width: 290px;
+  height: 45px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+.h3-debilidades {
+  width: 290px;
+  height: 45px;
+  margin: 30px 0 0;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
 }
 /*QUIENES SOMOS*/
 
@@ -158,7 +211,6 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
- 
 }
 .img-1 {
   width: 180px;
