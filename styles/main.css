@@ -192,8 +192,10 @@ li a {
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
+  vertical-align: middle;
   position: relative;
   top: 30px;
+  left: 74px;
 }
 .footer-sections {
   height: 60px;
@@ -204,6 +206,7 @@ li a {
   text-align: center;
   position: relative;
   top: 20px;
+  left: 103px;
 }
 .footer-ul {
   list-style: none;
@@ -217,4 +220,5 @@ li a {
   background-color: darkgreen; /* quitar antes de subir*/
   position: relative;
   top: 30px;
+  left: 102px;
 }
