@@ -83,9 +83,8 @@ h1 {
 }
 
 li a {
-    
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Hero */
@@ -191,7 +190,7 @@ li a {
 
 .about {
   box-sizing: border-box;
-  background-color:pink;
+  background-color: pink;
   width: 320px;
   height: 2225px;
   margin: 0px 0 0;
@@ -218,11 +217,6 @@ li a {
   margin: 0 55px 15px;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-  
-  
-  
-  
-
 }
 .item {
   /*width: 177px;*/
@@ -250,19 +244,50 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  }
+}
 
-  /* FOOTER */
-  .footer {
-    height: 250px;
-    border: 1px solid #b8b8b9;
-    position: relative;
-  }
-  .footer-copy {
-    font-family: "Open";
-    font-size: 14px;
-  }
-  .footer-ul {
-    list-style: none;
-  }
-  
+/* FOOTER */
+.footer {
+  height: 250px;
+  border: 1px solid #b8b8b9;
+  background-color: blue; /* quitar antes de subir*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-copy {
+  height: 20px;
+  width: 172px;
+  font-size: 14px;
+  background-color: brown; /* quitar antes de subir*/
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  top: 30px;
+  left: 74px;
+}
+.footer-sections {
+  height: 60px;
+  width: 114px;
+  background-color: cyan; /* quitar antes de subir*/
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  top: 20px;
+  left: 103px;
+}
+.text-link {
+  color: #54585a;
+}
+
+.footer-ul {
+  list-style: none;
+  line-height: 20px;
+}
+.footer-logo {
+  height: 45px;
+  width: 115.9px;
+  background-color: darkgreen; /* quitar antes de subir*/
+  top: 30px;
+  left: 102px;
+}
