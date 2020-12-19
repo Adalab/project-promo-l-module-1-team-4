@@ -2,12 +2,11 @@
 body {
   width: 320px;
 
-    /*width: 290px;
+  /*width: 290px;
     height: 80px;
     margin: 387px 15px 0;
     padding: 14px 15px 16px;
     background-color: var(--white);*/
-
 }
 .nav {
   box-sizing: border-box;
@@ -82,9 +81,8 @@ h1 {
 }
 
 li a {
-    
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Hero */
@@ -100,30 +98,29 @@ li a {
 }
 
 .lema {
-    font-family: Arial;
-    font-size: 16px;
-    text-align: center;
-    background-color: peachpuff;
-    display: block;
-    position: relative;
-    top: -20px;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-    width: 280px;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  background-color: peachpuff;
+  display: block;
+  position: relative;
+  top: -20px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+  width: 280px;
 }
 
 /* TEAM/EQUIPO */
 
-.team {
-
-}
+/*.team {
+}*/
 
 /*QUIENES SOMOS*/
 
 .about {
   box-sizing: border-box;
-  background-color:pink;
+  background-color: pink;
   width: 320px;
   height: 2225px;
   margin: 1083px 0 0;
@@ -143,7 +140,6 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
- 
 }
 .img-1 {
   width: 180px;
@@ -151,11 +147,6 @@ li a {
   margin: 0 55px 15px;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-  
-  
-  
-  
-
 }
 .item {
   /*width: 177px;*/
@@ -168,9 +159,10 @@ li a {
   line-height: 2.25;
   letter-spacing: normal;
   text-align: center;
-  color: var(--black)
-  .p{
-    width: 290px;
+  color: var(--black);
+}
+.p {
+  width: 290px;
   height: 200px;
   margin: 60px 0 15px;
   font-family: OpenSans;
@@ -182,19 +174,47 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  }
+}
 
-  /* FOOTER */
-  .footer {
-    height: 250px;
-    border: 1px solid #b8b8b9;
-    position: relative;
-  }
-  .footer-copy {
-    font-family: "Open";
-    font-size: 14px;
-  }
-  .footer-ul {
-    list-style: none;
-  }
-  
+/* FOOTER */
+.footer {
+  height: 250px;
+  border: 1px solid #b8b8b9;
+  position: relative;
+  background-color: blue; /* quitar antes de subir*/
+  display: block;
+}
+.footer-copy {
+  height: 20px;
+  width: 172px;
+  font-size: 14px;
+  background-color: brown; /* quitar antes de subir*/
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.footer-sections {
+  height: 60px;
+  width: 114px;
+  background-color: cyan; /* quitar antes de subir*/
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.footer-ul {
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.footer-logo {
+  height: 45px;
+  width: 115.9px;
+  background-color: darkgreen; /* quitar antes de subir*/
+  position: relative;
+  top: 30px;
+}
