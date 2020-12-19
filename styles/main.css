@@ -180,9 +180,10 @@ li a {
 .footer {
   height: 250px;
   border: 1px solid #b8b8b9;
-  position: relative;
   background-color: blue; /* quitar antes de subir*/
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .footer-copy {
   height: 20px;
@@ -192,8 +193,6 @@ li a {
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
-  vertical-align: middle;
-  position: relative;
   top: 30px;
   left: 74px;
 }
@@ -204,21 +203,21 @@ li a {
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
-  position: relative;
   top: 20px;
   left: 103px;
 }
+.text-link {
+  color: #54585a;
+}
+
 .footer-ul {
   list-style: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  text-align: center;
+  line-height: 20px;
 }
 .footer-logo {
   height: 45px;
   width: 115.9px;
   background-color: darkgreen; /* quitar antes de subir*/
-  position: relative;
   top: 30px;
   left: 102px;
 }
