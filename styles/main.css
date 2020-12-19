@@ -13,42 +13,80 @@ body {
   box-sizing: border-box;
   background-color: mediumturquoise;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0px;
   padding: 20px;
+  list-style-type: none;
 }
 h1 {
-  font-family: Arial;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
   color: white;
-  font-size: 17px;
   background-color: lightseagreen;
   text-align: center;
   margin: 0px;
   padding: 20px;
 }
 
-.li-1 {
+.Equipo {
   display: flex;
   flex-direction: row;
+  width: 56px;
+  height: 30px;
+  margin: 0 15px 0 0;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
 }
 
-.li-2 {
+.Quienes-somos {
   display: flex;
   flex-direction: row;
+  width: 56px;
+  height: 30px;
+  margin: 0 15px 0 0;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
 }
 
-.li-3 {
+.Contacto {
   display: flex;
   flex-direction: row;
+  width: 80px;
+  height: 30px;
+  margin: 0 0 0 15px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
 }
 
 li a {
-  font-family: Arial;
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
+    
+    text-decoration: none;
+    color: white;
 }
+
 /* Hero */
 .hero {
   width: 320px;
@@ -78,7 +116,7 @@ li a {
 /* TEAM/EQUIPO */
 
 .team {
-    
+
 }
 
 /*QUIENES SOMOS*/
