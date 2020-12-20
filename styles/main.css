@@ -140,7 +140,7 @@ li a {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: OpenSans;
+  font-family: OpenSans, serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -254,8 +254,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue; /* quitar antes de subir*/
+  background-color: white; /* quitar antes de subir*/
   font-size: 14px;
+  border: 1px solid #b8b8b9;
 }
 .footer-copy {
   height: 20px;
@@ -263,17 +264,20 @@ p {
   position: relative;
   top: 30px;
   background-color: brown; /* quitar antes de subir*/
-  font-family: sans-serif;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #b8b8b9;
 }
 .footer-sections {
   height: 60px;
   width: 114px;
   background-color: cyan; /*quitar antes de subir*/
-  font-family: sans-serif;
   text-align: center;
   position: relative;
   top: 50px;
+  font-family: "Open Sans Semi-bold", sans-serif;
+  font-size: 14px;
+  color: #54585a;
 }
 .text-link {
   color: #54585a;
