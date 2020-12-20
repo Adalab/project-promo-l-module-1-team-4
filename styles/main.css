@@ -8,7 +8,7 @@ body {
   width: 320px;
   height: 4025px;
   background-color: #ffffff;
-  border: solid red; 5px; 
+  border: 1px solid #b8b8b9;
 }
 .nav {
   box-sizing: border-box;
@@ -100,17 +100,17 @@ li a {
 }
 
 .lema {
-    font-family: Arial;
-    font-size: 16px;
-    text-align: center;
-    background-color: #ffffff;
-    display: block;
-    position: relative;
-    top: -20px;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-    width: 280px;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+  top: -20px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+  width: 280px;
 }
 
 /* TEAM/EQUIPO */
@@ -229,9 +229,9 @@ li a {
   line-height: 2.25;
   letter-spacing: normal;
   text-align: center;
-  color: var(--black)
+  color: var(--black);
 }
-  p {
+p {
   width: 290px;
   height: 200px;
   margin: 60px 0 15px;
@@ -248,33 +248,32 @@ li a {
 
 /* FOOTER */
 .footer {
+  margin: 0px;
   height: 250px;
-  border: 1px solid #b8b8b9;
-  background-color: blue; /* quitar antes de subir*/
+  width: 320px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  background-color: blue; /* quitar antes de subir*/
+  font-size: 14px;
 }
 .footer-copy {
   height: 20px;
   width: 172px;
-  font-size: 14px;
+  position: relative;
+  top: 30px;
   background-color: brown; /* quitar antes de subir*/
   font-family: sans-serif;
-  font-size: 14px;
   text-align: center;
-  top: 30px;
-  left: 74px;
 }
 .footer-sections {
   height: 60px;
   width: 114px;
-  background-color: cyan; /* quitar antes de subir*/
+  background-color: cyan; /*quitar antes de subir*/
   font-family: sans-serif;
-  font-size: 14px;
   text-align: center;
-  top: 20px;
-  left: 103px;
+  position: relative;
+  top: 50px;
 }
 .text-link {
   color: #54585a;
@@ -288,6 +287,6 @@ li a {
   height: 45px;
   width: 115.9px;
   background-color: darkgreen; /* quitar antes de subir*/
-  top: 30px;
-  left: 102px;
+  position: relative;
+  top: 80px;
 }
