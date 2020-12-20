@@ -199,16 +199,16 @@ li a {
 
 .about {
   box-sizing: border-box;
-  /* background-color: pink;*/
+  background-color: pink;
   width: 320px;
   height: 2225px;
   margin: 0px 0 0;
   padding: 30px 15px 45px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  background-color: var(--white);
+  /*background-color: var(--white);*/
 }
 .somos {
   width: 193px;
@@ -265,11 +265,11 @@ li a {
   height: 30px;
   margin: 0px 0px 0;
   list-style: none;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
 .link {
   color: black;
-  justify-content: center;
 }
 
 /* FOOTER */
@@ -280,7 +280,7 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;  quitar antes de subir*/
+  background-color: blue; /* quitar antes de subir*/
   font-size: 14px;
 }
 .footer-copy {
