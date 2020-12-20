@@ -3,7 +3,17 @@
   --aqua: #14d9c4;
   --dark-grey: #54585a;
 }
+
 /* Header */
+
+.header {
+  position: relative;
+  z-index: 1000;
+  opacity: 0.9;
+  width: 320px;
+  height: 0px;
+}
+
 body {
   width: 320px;
   height: 4025px;
@@ -87,10 +97,13 @@ li a {
   height: 421px;
   margin: 0 0 46px;
   padding: 0 0 0px;
+  position: relative;
+  z-index: 990;
 }
 .img {
   width: 320px;
   height: 421px;
+  
 }
 
 .lema {
