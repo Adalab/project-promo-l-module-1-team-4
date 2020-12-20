@@ -221,7 +221,7 @@ li a {
 .item {
   width: 177px;
   height: 45px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -235,7 +235,7 @@ li a {
   width: 290px;
   height: 200px;
   margin: 0px 0 15px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
