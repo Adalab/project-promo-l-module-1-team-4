@@ -21,7 +21,7 @@ body {
 }
 h1 {
   font-family: Rubik;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -35,8 +35,6 @@ h1 {
 }
 
 .Equipo {
-  display: flex;
-  flex-direction: row;
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
@@ -47,15 +45,13 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .Quienes-somos {
-  display: flex;
-  flex-direction: row;
-  width: 56px;
+  width: 121px;
   height: 30px;
-  margin: 0 15px 0 0;
+  margin: 0 -5px;
   font-family: Rubik;
   font-size: 15px;
   font-weight: 500;
@@ -63,12 +59,10 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .Contacto {
-  display: flex;
-  flex-direction: row;
   width: 80px;
   height: 30px;
   margin: 0 0 0 15px;
@@ -79,7 +73,7 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: var(--white);
+  color: #ffffff;
 }
 
 li a {
@@ -115,7 +109,7 @@ li a {
 
 /* TEAM/EQUIPO */
 
-.rectangulo1 {
+.team {
   width: 320px;
   height: 579px;
   margin: 0px 0 0;
@@ -140,7 +134,7 @@ li a {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: OpenSans;
+  font-family: "OpenSans";
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -150,7 +144,7 @@ li a {
   text-align: center;
   color: var(--dark-grey);
 }
-.rectangulo2 {
+.fortalezas-debilidades {
   width: 320px;
   height: 579px;
   margin: -20px 0 0;
@@ -159,6 +153,7 @@ li a {
   background-color: #b8b8b9;
 }
 /*La opacidad del rectangulo2 hace que el blue-green se vea mas claro. Hay que resolverlo*/
+
 .h3-fortalezas {
   width: 290px;
   height: 45px;
@@ -171,6 +166,7 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  
 }
 .h3-debilidades {
   width: 290px;
@@ -186,6 +182,7 @@ li a {
   text-align: center;
   color: var(--blue-green);
 }
+
 /*QUIENES SOMOS*/
 
 .about {
