@@ -191,7 +191,6 @@ li a {
   height: 2225px;
   margin: 0px 0 0;
   padding: 30px 15px 45px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,11 +251,11 @@ li a {
   height: 30px;
   margin: 0px 0px 0;
   list-style: none;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .link {
   color: black;
+  justify-content: center;
 }
 
 /* FOOTER */
