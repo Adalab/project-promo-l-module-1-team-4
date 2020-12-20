@@ -166,7 +166,6 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-  
 }
 .h3-debilidades {
   width: 290px;
@@ -245,6 +244,19 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+}
+
+.redes {
+  display: flex;
+  width: 124px;
+  height: 30px;
+  margin: 0px 0px 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.link {
+  color: black;
 }
 
 /* FOOTER */
