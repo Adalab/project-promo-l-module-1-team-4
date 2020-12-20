@@ -263,20 +263,22 @@ p {
   width: 172px;
   position: relative;
   top: 30px;
-  background-color: brown; /* quitar antes de subir*/
+  /* background-color: brown; quitar antes de subir*/
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #b8b8b9;
 }
 .footer-sections {
-  height: 60px;
   width: 114px;
-  background-color: cyan; /*quitar antes de subir*/
+  height: 60px;
+  /*background-color: cyan; /*quitar antes de subir*/
   text-align: center;
   position: relative;
   top: 50px;
-  font-family: "Open Sans Semi-bold", sans-serif;
+  line-height: 1.43;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  font-weight: 600;
   color: #54585a;
 }
 .text-link {
@@ -289,8 +291,8 @@ p {
 }
 .footer-logo {
   height: 45px;
-  width: 115.9px;
-  background-color: darkgreen; /* quitar antes de subir*/
+  width: 116px;
+  /*background-color: darkgreen; /* quitar antes de subir*/
   position: relative;
   top: 80px;
 }
