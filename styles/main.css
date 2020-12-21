@@ -205,6 +205,20 @@ li a {
   text-align: center;
   color: var(--blue-green);
 }
+p {
+  width: 290px;
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-grey);
+}
 .h3-debilidades {
   width: 290px;
   height: 45px;
