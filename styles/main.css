@@ -65,11 +65,12 @@ h1 {
 }
 */
 .Equipo {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
+
   width: 56px;
   height: 30px;
-  margin: 0 15px 0 0;
+  margin: 0px 8px;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -81,11 +82,11 @@ h1 {
 }
 
 .Quienes-somos {
-  display: flex;
-  flex-direction: row;
-  width: 56px;
+  /*display: flex;*/
+
+  width: 150px;
   height: 30px;
-  margin: 0 15px 0 0;
+  margin: 0px;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -94,14 +95,16 @@ h1 {
   line-height: 2;
   letter-spacing: normal;
   color: var(--white);
+  align-items: center;
 }
 
 .Contacto {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
+
   width: 80px;
   height: 30px;
-  margin: 0 0 0 15px;
+  margin: 0px;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -147,14 +150,13 @@ li a {
 }
 
 /* TEAM/EQUIPO */
-
-.rectangulo1 {
+.team {
   width: 320px;
-  height: 579px;
-  margin: 0px 0 0;
-  padding: 0px;
+  height: 504px;
+  padding: 0px 0px;
   background-color: #ffffff;
 }
+
 .h2-equipo {
   width: 89px;
   height: 45px;
@@ -172,7 +174,7 @@ li a {
 .descripcion-equipo {
   width: 290px;
   height: 384px;
-  margin: 15px 0 0;
+  margin: 0px 0 0;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -183,15 +185,15 @@ li a {
   text-align: center;
   color: var(--dark-grey);
 }
-.rectangulo2 {
+.fortalezas-debilidades {
+  box-sizing: border-box;
   width: 320px;
   height: 579px;
-  margin: -20px 0 0;
+  margin: 0px;
   padding: 0px;
-  opacity: 0.2;
   background-color: #b8b8b9;
 }
-/*La opacidad del rectangulo2 hace que el blue-green se vea mas claro. Hay que resolverlo*/
+
 .h3-fortalezas {
   width: 290px;
   height: 45px;
@@ -208,7 +210,7 @@ li a {
 p {
   width: 290px;
   height: 192px;
-  margin: 45px 0 30px;
+  margin: 0 0 0;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -218,6 +220,8 @@ p {
   letter-spacing: normal;
   text-align: center;
   color: var(--dark-grey);
+  position: relative;
+  z-index: 1000;
 }
 .h3-debilidades {
   width: 290px;
@@ -232,6 +236,8 @@ p {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  position: relative;
+  z-index: 1000;
 }
 /*QUIENES SOMOS*/
 
@@ -239,12 +245,12 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: var(--white);*/
+  background-color: var(--white);
   box-sizing: border-box;
-  background-color: pink;
+  /*background-color: pink;*/
   width: 320px;
   height: 2225px;
-  margin: 1083px 0 0;
+  margin: 0 0 0;
   padding: 30px 15px 45px;
 }
 .somos {
