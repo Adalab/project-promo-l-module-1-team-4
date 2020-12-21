@@ -208,12 +208,9 @@ li a {
   height: 2225px;
   margin: 0px 0 0;
   padding: 30px 15px 45px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
-=======
->>>>>>> 0a63369f3f180c7aa6b828c17cdddd70f7b5ab0c
   /*background-color: var(--white);*/
 }
 .somos {
