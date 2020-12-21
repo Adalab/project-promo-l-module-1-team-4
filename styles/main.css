@@ -30,7 +30,7 @@ body {
   list-style-type: none;
 }
 h1 {
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -50,7 +50,7 @@ h1 {
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
@@ -66,7 +66,7 @@ h1 {
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
@@ -82,7 +82,7 @@ h1 {
   width: 80px;
   height: 30px;
   margin: 0 0 0 15px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
@@ -112,8 +112,9 @@ li a {
 }
 
 .lema {
-  font-family: Arial;
-  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
   background-color: #ffffff;
   display: block;
@@ -138,7 +139,7 @@ li a {
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -152,7 +153,7 @@ li a {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: OpenSans, serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -174,7 +175,7 @@ li a {
 .h3-fortalezas {
   width: 290px;
   height: 45px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -188,7 +189,7 @@ li a {
   width: 290px;
   height: 45px;
   margin: 30px 0 0;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -219,7 +220,7 @@ li a {
   width: 193px;
   height: 45px;
   margin: 0 47.5px 30px 49.5px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -249,7 +250,7 @@ li a {
   text-align: center;
   color: var(--black);
 }
-p {
+.parrafo {
   width: 290px;
   height: 200px;
   margin: 0px 0 15px;
