@@ -202,16 +202,16 @@ li a {
 /*QUIENES SOMOS*/
 
 .about {
-  box-sizing: border-box;
-  background-color: pink;
-  width: 320px;
-  height: 2225px;
-  margin: 0px 0 0;
-  padding: 30px 15px 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /*background-color: var(--white);*/
+  box-sizing: border-box;
+  background-color: pink;
+  width: 320px;
+  height: 2225px;
+  margin: 1083px 0 0;
+  padding: 30px 15px 45px;
 }
 .somos {
   width: 193px;
@@ -235,8 +235,9 @@ li a {
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 .item {
-  /*width: 177px;*/
+  width: auto;
   height: 45px;
+  margin: 15px 70.5px 0 72.5px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -250,7 +251,7 @@ li a {
 .parrafo {
   width: 290px;
   height: 200px;
-  margin: 0px 0 15px;
+
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -261,23 +262,30 @@ li a {
   text-align: center;
   color: #54585a;
 }
+.social {
+  display: flex;
+  justify-content: center;
+}
 
 .redes {
   display: flex;
   width: 124px;
   height: 30px;
+  padding-left: 0;
   margin: 0px 0px 0;
   list-style: none;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
 }
 .link {
   color: #099d8d;
+  display: flex;
+  justify-content: center;
 }
 
 /* FOOTER */
 .footer {
-  margin: 0px;
+  margin: 0;
   height: 250px;
   width: 320px;
   display: flex;
