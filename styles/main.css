@@ -103,7 +103,6 @@ li a {
 .img {
   width: 320px;
   height: 421px;
-  
 }
 
 .lema {
@@ -204,7 +203,6 @@ li a {
   height: 2225px;
   margin: 0px 0 0;
   padding: 30px 15px 45px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
