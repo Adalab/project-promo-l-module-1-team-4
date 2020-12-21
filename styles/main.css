@@ -325,7 +325,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(169, 129, 206); /* quitar antes de subir*/
+  /* background-color: rgb(169, 129, 206);  quitar antes de subir*/
   font-size: 14px;
   border-top: 1px solid #b8b8b9;
 }
@@ -334,7 +334,7 @@ p {
   width: 172px;
   position: relative;
   top: 30px;
-  background-color: brown; /*quitar antes de subir*/
+  /*background-color: brown; quitar antes de subir*/
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #b8b8b9;
@@ -343,7 +343,7 @@ p {
   width: 114px;
   height: 60px;
   display: block;
-  background-color: cyan; /*quitar antes de subir*/
+  /*background-color: cyan; /*quitar antes de subir*/
   text-align: center;
   position: relative;
   top: 50px;
