@@ -4,40 +4,29 @@
   --dark-grey: #54585a;
 }
 
-/* Header */
-
-.header {
-  position: relative;
-  z-index: 1000;
-  opacity: 0.9;
-  width: 320px;
-  height: 0px;
-}
-
 body {
+  display: flex;
+  flex-direction: column;
   width: 320px;
   height: 4025px;
   background-color: #ffffff;
   border: 1px solid #b8b8b9;
 }
-/*
-.header {
-  width: 320px;
-  height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
-  background-color: var(--blue-green);
+
+a {
+  text-decoration: none;
 }
-*/
-.nav {
-  box-sizing: border-box;
-  background-color: var(--aqua);
+
+/* Header */
+
+.header {
+  position: relative;
   opacity: 0.9;
-  display: flex;
-  justify-content: space-between;
+  width: 320px;
+  height: 0px;
   margin: 0px;
-  padding: 20px;
-  list-style-type: none;
+  background-image: url(../images/ImagenInDemo.png);
+  padding-bottom: 400px;
 }
 
 h1 {
@@ -55,19 +44,18 @@ h1 {
   margin: 0px;
   padding: 20px;
 }
-/*
-.img {
-  width: 320px;
-  height: 421px;
-  margin: 0 0 0px;
-  top: 0px;
-  padding: 0 0 0px;
-}
-*/
-.Equipo {
-  /*display: flex;
-  flex-direction: row;*/
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 10px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+  list-style-type: none; 
+}
+
+.Equipo {
   width: 56px;
   height: 30px;
   margin: 0px 8px;
@@ -82,11 +70,9 @@ h1 {
 }
 
 .Quienes-somos {
-  /*display: flex;*/
-
-  width: 150px;
+  width: 121px;
   height: 30px;
-  margin: 0px;
+  margin: 0 14px 0 0;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -95,13 +81,11 @@ h1 {
   line-height: 2;
   letter-spacing: normal;
   color: var(--white);
-  align-items: center;
+  text-align: center;
+  /* align-items: center; */
 }
 
 .Contacto {
-  /*display: flex;
-  flex-direction: row;*/
-
   width: 80px;
   height: 30px;
   margin: 0px;
@@ -113,28 +97,15 @@ h1 {
   line-height: 2;
   letter-spacing: normal;
   color: var(--white);
-}
+} 
 
-li a {
-  text-decoration: none;
+.nav a {
   color: white;
 }
 
 /* Hero */
-.hero {
-  width: 320px;
-  height: 421px;
-  margin: 0 0 46px;
-  padding: 0 0 0px;
-  position: relative;
-  z-index: 990;
-}
-.img {
-  width: 320px;
-  height: 421px;
-}
 
-.lema {
+.hero {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -147,20 +118,26 @@ li a {
   right: 10px;
   padding: 10px;
   width: 280px;
+  z-index: 999;
 }
 
 /* TEAM/EQUIPO */
-.team {
+
+/* .team {
   width: 320px;
   height: 504px;
   padding: 0px 0px;
   background-color: #ffffff;
+} */
+
+.team {
+  margin-bottom: 0px;
 }
 
 .h2-equipo {
   width: 89px;
   height: 45px;
-  margin: 0 99.5px 15px 101.5px;
+  margin: 0px 99.5px 15px 115px;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -171,10 +148,11 @@ li a {
   text-align: center;
   color: var(--aqua);
 }
+
 .descripcion-equipo {
   width: 290px;
   height: 384px;
-  margin: 0px 0 0;
+  margin: 15px 0 0 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -183,20 +161,28 @@ li a {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: var(--dark-grey);
+  color: #54585a;
 }
+
 .fortalezas-debilidades {
+  width: 320px;
+  height: 650px;
+  margin-top: 15px;
+  padding-top: 10px;
+  background-color: #b8b8b9;
+}
+
+/* .fortalezas-debilidades {
   box-sizing: border-box;
   width: 320px;
   height: 579px;
   margin: 0px;
-  padding: 0px;
-  background-color: #b8b8b9;
-}
+  padding: 0px; */
 
 .h3-fortalezas {
   width: 290px;
   height: 45px;
+  margin: 30px 0 0 10px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -207,6 +193,7 @@ li a {
   text-align: center;
   color: var(--blue-green);
 }
+
 p {
   width: 290px;
   height: 192px;
@@ -222,11 +209,13 @@ p {
   color: var(--dark-grey);
   position: relative;
   z-index: 1000;
+  margin: 15px 0 0 15px;
 }
+
 .h3-debilidades {
   width: 290px;
   height: 45px;
-  margin: 30px 0 0;
+  margin: 50px 0 0 10px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -239,20 +228,27 @@ p {
   position: relative;
   z-index: 1000;
 }
+
 /*QUIENES SOMOS*/
 
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--white);
   box-sizing: border-box;
-  /*background-color: pink;*/
+  background-color: var(--white);
+  width: 320px;
+  margin: 0px;
+  padding: 30px 15px 0px;
+}
+
+/* background-color: var(--white);
+  box-sizing: border-box;
+  /*background-color: pink;
   width: 320px;
   height: 2225px;
-  margin: 0 0 0;
-  padding: 30px 15px 45px;
-}
+  margin: 0 0 0; */
+
 .somos {
   width: 193px;
   height: 45px;
@@ -267,6 +263,7 @@ p {
   text-align: center;
   color: var(--blue-green);
 }
+
 .img-1 {
   width: 180px;
   height: 180px;
@@ -274,10 +271,11 @@ p {
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
+
 .item {
   width: auto;
   height: 45px;
-  margin: 15px 70.5px 0 72.5px;
+  margin: 0px 70.5px 0 72.5px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -288,10 +286,9 @@ p {
   text-align: center;
   color: var(--black);
 }
+
 .parrafo {
   width: 290px;
-  height: 200px;
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -302,9 +299,11 @@ p {
   text-align: center;
   color: #54585a;
 }
+
 .social {
   display: flex;
   justify-content: center;
+  margin: 30px;
 }
 
 .redes {
@@ -317,6 +316,7 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
 .link {
   color: #099d8d;
   display: flex;
@@ -324,6 +324,7 @@ p {
 }
 
 /* FOOTER */
+
 .footer {
   margin: 0px;
   width: 320px;
@@ -359,6 +360,11 @@ p {
   font-weight: 600;
   color: #54585a;
 }
+
+.footer-sections a {
+  color: #54585a;
+}
+
 .text-link {
   color: #54585a;
 }
