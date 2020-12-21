@@ -31,7 +31,7 @@ body {
 }
 h1 {
   font-family: Rubik;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -45,6 +45,8 @@ h1 {
 }
 
 .Equipo {
+  display: flex;
+  flex-direction: row;
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
@@ -55,13 +57,15 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .Quienes-somos {
-  width: 121px;
+  display: flex;
+  flex-direction: row;
+  width: 56px;
   height: 30px;
-  margin: 0 -5px;
+  margin: 0 15px 0 0;
   font-family: Rubik;
   font-size: 15px;
   font-weight: 500;
@@ -69,10 +73,12 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .Contacto {
+  display: flex;
+  flex-direction: row;
   width: 80px;
   height: 30px;
   margin: 0 0 0 15px;
@@ -83,7 +89,7 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  color: #ffffff;
+  color: var(--white);
 }
 
 li a {
@@ -121,7 +127,7 @@ li a {
 
 /* TEAM/EQUIPO */
 
-.team {
+.rectangulo1 {
   width: 320px;
   height: 579px;
   margin: 0px 0 0;
@@ -146,7 +152,7 @@ li a {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: "OpenSans";
+  font-family: OpenSans, serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -156,7 +162,7 @@ li a {
   text-align: center;
   color: var(--dark-grey);
 }
-.fortalezas-debilidades {
+.rectangulo2 {
   width: 320px;
   height: 579px;
   margin: -20px 0 0;
@@ -165,7 +171,6 @@ li a {
   background-color: #b8b8b9;
 }
 /*La opacidad del rectangulo2 hace que el blue-green se vea mas claro. Hay que resolverlo*/
-
 .h3-fortalezas {
   width: 290px;
   height: 45px;
@@ -193,7 +198,6 @@ li a {
   text-align: center;
   color: var(--blue-green);
 }
-
 /*QUIENES SOMOS*/
 
 .about {
@@ -203,9 +207,12 @@ li a {
   height: 2225px;
   margin: 0px 0 0;
   padding: 30px 15px 45px;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
+=======
+>>>>>>> 0a63369f3f180c7aa6b828c17cdddd70f7b5ab0c
   /*background-color: var(--white);*/
 }
 .somos {
@@ -230,7 +237,7 @@ li a {
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 .item {
-  width: 177px;
+  /*width: 177px;*/
   height: 45px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -242,7 +249,7 @@ li a {
   text-align: center;
   color: var(--black);
 }
-.parrafo {
+p {
   width: 290px;
   height: 200px;
   margin: 0px 0 15px;
@@ -278,26 +285,32 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue; /* quitar antes de subir*/
+  background-color: white; /* quitar antes de subir*/
   font-size: 14px;
+  border: 1px solid #b8b8b9;
 }
 .footer-copy {
   height: 20px;
   width: 172px;
   position: relative;
   top: 30px;
-  background-color: brown; /* quitar antes de subir*/
-  font-family: sans-serif;
+  /* background-color: brown; quitar antes de subir*/
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #b8b8b9;
 }
 .footer-sections {
-  height: 60px;
   width: 114px;
-  background-color: cyan; /*quitar antes de subir*/
-  font-family: sans-serif;
+  height: 60px;
+  /*background-color: cyan; /*quitar antes de subir*/
   text-align: center;
   position: relative;
   top: 50px;
+  line-height: 1.43;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #54585a;
 }
 .text-link {
   color: #54585a;
@@ -309,8 +322,8 @@ li a {
 }
 .footer-logo {
   height: 45px;
-  width: 115.9px;
-  background-color: darkgreen; /* quitar antes de subir*/
+  width: 116px;
+  /*background-color: darkgreen; /* quitar antes de subir*/
   position: relative;
   top: 80px;
 }
