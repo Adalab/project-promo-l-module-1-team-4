@@ -147,14 +147,14 @@ li a {
 }
 
 /* TEAM/EQUIPO */
-
+/*
 .rectangulo1 {
   width: 320px;
   height: 579px;
   margin: 0px 0 0;
   padding: 0px;
   background-color: #ffffff;
-}
+} */
 .h2-equipo {
   width: 89px;
   height: 45px;
@@ -183,6 +183,7 @@ li a {
   text-align: center;
   color: var(--dark-grey);
 }
+/*
 .rectangulo2 {
   width: 320px;
   height: 579px;
@@ -190,7 +191,7 @@ li a {
   padding: 0px;
   opacity: 0.2;
   background-color: #b8b8b9;
-}
+} */
 /*La opacidad del rectangulo2 hace que el blue-green se vea mas claro. Hay que resolverlo*/
 .h3-fortalezas {
   width: 290px;
