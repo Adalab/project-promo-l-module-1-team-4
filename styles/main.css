@@ -292,7 +292,7 @@ li a {
   width: 172px;
   position: relative;
   top: 30px;
-  background-color: brown; /*quitar antes de subir*/
+  /*background-color: brown; quitar antes de subir*/
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #b8b8b9;
@@ -301,7 +301,7 @@ li a {
   width: 114px;
   height: 60px;
   display: block;
-  background-color: cyan; /*quitar antes de subir*/
+  /*background-color: cyan; /*quitar antes de subir*/
   text-align: center;
   position: relative;
   top: 50px;
