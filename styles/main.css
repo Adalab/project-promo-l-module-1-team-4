@@ -114,7 +114,7 @@ li a {
 }
 
 .lema {
-  font-family: Arial;
+  font-family: "Open Sans";
   font-size: 16px;
   text-align: center;
   background-color: #ffffff;
@@ -154,7 +154,7 @@ li a {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: "OpenSans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -186,7 +186,6 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-  
 }
 .h3-debilidades {
   width: 290px;
@@ -242,7 +241,7 @@ li a {
 .item {
   width: 177px;
   height: 45px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -256,7 +255,7 @@ li a {
   width: 290px;
   height: 200px;
   margin: 0px 0 15px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -265,6 +264,19 @@ li a {
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+}
+
+.redes {
+  display: flex;
+  width: 124px;
+  height: 30px;
+  margin: 0px 0px 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.link {
+  color: black;
 }
 
 /* FOOTER */
