@@ -1,12 +1,17 @@
 * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+:root {
   --blue-green: #099d8d;
   --grey: #54585a;
   --cool-grey: #b8b8b9;
   --aqua: #14d9c4;
   --black: #000000;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  --white: #ffffff;
 }
 /*HEADER*/
 
@@ -27,7 +32,7 @@ h1 {
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--blue-green);
   text-align: center;
   height: 60px;
@@ -50,18 +55,19 @@ h1 {
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  color: var(--white); /*he colocado esto aquí desde .list a*/
 }
-.list a {
+/*.list a {
   text-decoration: none;
   color: #ffffff;
-}
+}No es necesario*/
 .hero {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--white);
   color: var(--black);
   height: 80px;
   font-stretch: normal;
@@ -79,7 +85,99 @@ h1 {
   /* padding: 10px; */
   z-index: 999;
 }
-
+/*MAIN*/
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+h2 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--aqua);
+  text-transform: uppercase;
+}
+.team-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--grey);
+}
+.strengths-weaknesses {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  /*opacity: 0.2;*/
+  background-color: var(--cool-grey);
+  /*z-index: 990;*/
+}
+.strengths-title {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+  text-transform: capitalize;
+  display: block;
+  position: relative;
+  z-index: 999;
+}
+.strengths-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--grey);
+  margin: 15px;
+}
+.weaknesses-title {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+  text-transform: capitalize;
+}
+.weaknesses-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--grey);
+  margin: 15px;
+}
 /*QUIENES SOMOS*/
 .section-2 {
   display: flex;
@@ -97,7 +195,7 @@ h1 {
   letter-spacing: normal;
   color: var(--blue-green);
   padding: 30px 0px 30px 0px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .member {
   display: flex;
