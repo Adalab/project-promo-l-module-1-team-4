@@ -22,6 +22,8 @@
   height: 421px;
   margin: 0 0 46px;
   padding-right: 0;
+  display: flex;
+  flex-direction: column;
   position: relative;
   z-index: 990;
   top: -300px;
@@ -76,11 +78,11 @@ h1 {
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
-  margin: 300px 15px 0 0;
+  margin: 290px 15px 0 0;
   padding: 14px 15px 16px;
   display: block;
   position: relative;
-  top: -20px;
+  top: 100px;
   left: 10px;
   right: 10px;
   z-index: 999;
