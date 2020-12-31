@@ -28,7 +28,9 @@
   z-index: 990;
 }
 .fixed {
-  /*position: fixed;*/
+  position: fixed;
+  width: 100%;
+  top: 0
 }
 h1 {
   font-family: "Rubik", sans-serif;
@@ -69,7 +71,7 @@ h1 {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: var(--white);
+  background-color: red; /*var(--white);*/
   color: var(--black);
   font-stretch: normal;
   font-style: normal;
@@ -102,6 +104,8 @@ h2 {
   text-align: center;
   color: var(--aqua);
   text-transform: uppercase;
+  /*margin: 0 99.5px 15px 101.5px; son los margenes de zeplin pero no cuadran*/
+  margin-top: 30px;
 }
 .team-text {
   font-family: "Open Sans", sans-serif;
@@ -113,18 +117,21 @@ h2 {
   letter-spacing: normal;
   text-align: center;
   color: var(--grey);
+  margin: 15px 0 5px 0;
+}
+.square {
+  background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin: 0px auto -15px;
+  transform: rotate(45deg);
 }
 .strengths-weaknesses {
-  /*display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center;*/
-  display: block;
-  position: relative;
-  text-align: center;
-  margin: 0;
-  /*opacity: 0.2;*/
+  align-items: center;
   background-color: rgba(184, 184, 185, 0.2)
-  /*z-index: 990;*/
 }
 .strengths-title {
   font-family: Rubik;
@@ -137,9 +144,7 @@ h2 {
   text-align: center;
   color: var(--blue-green);
   text-transform: capitalize;
-  display: block;
-  position: relative;
-  z-index: 999;
+  margin: 30px 0 0 0;
 }
 .strengths-text {
   font-family: "Open Sans", sans-serif;
@@ -151,7 +156,7 @@ h2 {
   letter-spacing: normal;
   text-align: center;
   color: var(--grey);
-  margin: 15px;
+  margin: 0 15px 0 15px;
 }
 .weaknesses-title {
   font-family: Rubik;
@@ -164,6 +169,7 @@ h2 {
   text-align: center;
   color: var(--blue-green);
   text-transform: capitalize;
+  margin-top: 30px;
 }
 .weaknesses-text {
   font-family: "Open Sans", sans-serif;
@@ -175,7 +181,7 @@ h2 {
   letter-spacing: normal;
   text-align: center;
   color: var(--grey);
-  margin: 15px;
+  margin: 0 15px 45px 15px;
 }
 /*QUIENES SOMOS*/
 .section-2 {
