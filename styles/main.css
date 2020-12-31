@@ -26,12 +26,9 @@
   flex-direction: column;
   position: relative;
   z-index: 990;
-  top: -300px;
 }
 .fixed {
-  position: fixed;
-  width: 100%;
-  top: 0;
+  /*position: fixed;*/
 }
 h1 {
   font-family: "Rubik", sans-serif;
