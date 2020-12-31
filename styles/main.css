@@ -22,7 +22,11 @@
   height: 421px;
   margin: 0 0 46px;
   padding-right: 0;
-  /* position: relative; */
+  position: relative;
+  z-index: 990;
+}
+.fixed {
+  /*position: fixed;*/
 }
 h1 {
   font-family: "Rubik", sans-serif;
@@ -56,12 +60,8 @@ h1 {
   line-height: 2;
   letter-spacing: normal;
   text-transform: uppercase;
-  color: var(--white); /*he colocado esto aquí desde .list a*/
+  color: var(--white);
 }
-/*.list a {
-  text-decoration: none;
-  color: #ffffff;
-}No es necesario*/
 .hero {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -69,12 +69,10 @@ h1 {
   text-align: center;
   background-color: var(--white);
   color: var(--black);
-  height: 80px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
-  height: 80px;
   margin: 300px 15px 0 0;
   padding: 14px 15px 16px;
   display: block;
@@ -82,7 +80,6 @@ h1 {
   top: -20px;
   left: 10px;
   right: 10px;
-  /* padding: 10px; */
   z-index: 999;
 }
 /*MAIN*/
@@ -124,7 +121,7 @@ h2 {
   text-align: center;
   margin: 0;
   /*opacity: 0.2;*/
-  background-color: var(--cool-grey);
+  background-color: rgba(184, 184, 185, 0.2)
   /*z-index: 990;*/
 }
 .strengths-title {
