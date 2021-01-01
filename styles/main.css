@@ -13,6 +13,7 @@
   --black: #000000;
   --white: #ffffff;
 }
+
 /*HEADER*/
 
 .header {
@@ -66,19 +67,24 @@ h1 {
   text-transform: uppercase;
   color: var(--white);
 }
+.link-nav {
+  padding: 15px;
+}
 .hero {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: red; /*var(--white);*/
+  background-color: var(--white);
   color: var(--black);
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
-  margin: 290px 15px 0 0;
-  padding: 14px 15px 16px;
+  margin: 290px 15px 0 15px;
+  /*padding: 14px 15px 16px;*/
+  padding-top: 23px;
+  height: 80px;
   display: block;
   position: relative;
   top: 100px;
@@ -86,12 +92,14 @@ h1 {
   right: 10px;
   z-index: 999;
 }
+
 /*MAIN*/
+
 .team {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
+  margin: 0 15px 0 15px;
 }
 h2 {
   font-family: Rubik;
@@ -105,7 +113,8 @@ h2 {
   color: var(--aqua);
   text-transform: uppercase;
   /*margin: 0 99.5px 15px 101.5px; son los margenes de zeplin pero no cuadran*/
-  margin-top: 30px;
+  /*margin-top: 30px;*/
+  padding-top: 30px;
 }
 .team-text {
   font-family: "Open Sans", sans-serif;
@@ -117,7 +126,8 @@ h2 {
   letter-spacing: normal;
   text-align: center;
   color: var(--grey);
-  margin: 15px 0 5px 0;
+  margin: 15px 0 0 0;
+  padding-bottom: 30px;
 }
 .square {
   background-color: var(--white);
@@ -183,7 +193,9 @@ h2 {
   color: var(--grey);
   margin: 0 15px 45px 15px;
 }
+
 /*QUIENES SOMOS*/
+
 .section-2 {
   display: flex;
   flex-direction: column;
@@ -239,9 +251,8 @@ h2 {
   line-height: 1.5;
   letter-spacing: normal;
   color: var(--grey);
-  margin: 15px;
+  margin: 0 15px 0 15px;
 }
-
 .social-1 {
   display: flex;
   flex-direction: row;
@@ -255,7 +266,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  padding-bottom: 30px; /*30px+15px del padding general=45px*/
+  padding-bottom: 45px; /*30px+15px del padding general=45px*/ 
 }
 
 /*FOOTER*/
@@ -295,8 +306,39 @@ h2 {
   margin: 0px 102px 41px 102px;
 }
 
-/*@media all and (min-width: 768px) {
-  .retrait {
+@media all and (min-width: 768px) {
+  h2 {
+    padding-top: 45px;
+  }
+  .team {
+    margin: 0 45px 0 45px;
+  }
+  .team-text {
+    opacity: 0.67;
+    padding-bottom: 30px;
+  }
+  .strengths-weaknesses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .strengths-title {
+    /*text-align: center;*/
+    margin: 30px 0 0 0;
+  }
+  .strengths-text {
+    flex-grow: 5;
+    margin: 0 15px 0 15px;
+  }
+  .weaknesses-title {
+    margin-top: 30px;
+  }
+  .weaknesses-text {
+    flex-grow: 4;
+    /*margin: 0 15px 45px 15px;*/
+  }
+}
+  /*.retrait {
     float: left;
     margin-left: 44px;
   }
