@@ -13,6 +13,9 @@
   --black: #000000;
   --white: #ffffff;
 }
+html {
+  scroll-padding-top: 105px;
+}
 
 /*HEADER*/
 
@@ -71,7 +74,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   background-color: var(--white);
   color: var(--black);
   font-stretch: normal;
@@ -295,6 +298,9 @@ h2 {
 }
 
 @media all and (min-width: 768px) {
+  html{
+    scroll-padding-top: 60px;
+  }
   header {
     height: 421px;
   }
@@ -319,7 +325,6 @@ h2 {
     padding-right: 0px;
   }
   .motto {
-    text-align: center;
     background-color: var(--white);
     margin: -55px 281px 0px 46px;
     padding: 15px 30px;
@@ -414,6 +419,32 @@ h2 {
   }
 }
 @media all and (min-width: 1200px) {
+  header {
+    height: 550px;
+  }
+  .header {
+    background-color: var(--blue-green);
+    padding: 15px 138px 14px 142px;
+  }
+  /* .name-team {
+    padding: 15px 0px 15px 0px;
+  } */
+  /* .nav {
+    background-color: var(--blue-green);
+    height: 60px;
+    padding-inline-start: 0px;
+  } */
+  /* .link-nav-media {
+    padding-right: 0px;
+  } */
+  .motto {
+    margin: -55px 488px 0 138px;
+    padding: 15px 30px;
+    opacity: 0.8;
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
   .team {
     margin: 0 300px 60px 300px;
   }
