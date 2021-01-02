@@ -84,6 +84,9 @@ html {
   margin: -30px 15px 0 15px;
   padding: 14px 15px 16px;
 }
+.motto:first-letter {
+  text-transform: capitalize;
+}
 
 /*MAIN*/
 
