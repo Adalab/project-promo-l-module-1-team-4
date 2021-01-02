@@ -363,7 +363,15 @@ h2 {
     margin-right: 45px;
     margin-left: 30px;
   }
-
+  .about-us {
+    margin: 0px;
+  }
+  .about-left {
+    text-align: left;
+  }
+  .about-right {
+    text-align: right;
+  }
   .member-left {
     grid-row: 1;
     grid-column: 2;
@@ -382,5 +390,26 @@ h2 {
     text-align: right;
     align-items: flex-end;
     margin-left: 44px;
+  }
+  .social-1 {
+    justify-content: space-between;
+    width: 124px;
+  }
+  .link {
+    padding: 0px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .retrait {
+    width: 278px;
+    height: 278px;
+  }
+  .img-left {
+    margin-left: 138px;
+    margin-right: 45px;
+  }
+  .img-right {
+    margin-right: 138px;
+    margin-left: 45px;
   }
 }
