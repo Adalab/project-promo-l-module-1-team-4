@@ -65,33 +65,21 @@
   background-size: cover;
   height: 421px;
   margin: 0; /*0 0 46px;*/
-  padding-right: 0;
-  /*display: flex;
-flex-direction: column;
-position: relative;
-z-index: 990;*/
+  padding-right: 0px;
 }
 .motto {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: red; /*var(--white);*/
+  background-color: var(--white);
   color: var(--black);
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
   margin: -30px 15px 0 15px;
-  /*padding: 14px 15px 16px;*/
-  padding-top: 23px;
-  height: 80px;
-  /*display: block;
-  position: relative;
-  top: 100px;
-  left: 10px;
-  right: 10px;
-  z-index: 999;*/
+  padding: 14px 15px 16px;
 }
 
 /*MAIN*/
@@ -309,6 +297,36 @@ h2 {
 }
 
 @media all and (min-width: 768px) {
+  header {
+    height: 421px; 
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue-green);
+    padding: 15px 45px 15px 45px;
+    opacity: 0.95;
+    height: 60px;
+  }
+  .name-team {
+    padding: 15px 0px 15px 0px;
+  }
+  .nav {
+    background-color: var(--blue-green);
+    height: 60px;
+    padding-inline-start: 0px;
+  }
+  .link-nav-media {
+    padding-right: 0px;;
+  }
+  .motto {
+    text-align: center;
+    background-color: var(--white);
+    margin: -55px 281px 0px 46px;
+    padding: 15px 30px;
+    opacity: 0.8;
+  }
   h2 {
     padding-top: 45px;
   }
