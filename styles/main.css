@@ -423,23 +423,12 @@ h2 {
 }
 @media all and (min-width: 1200px) {
   header {
-    height: 550px;
+    height: 420px;
   }
   .header {
     background-color: var(--blue-green);
     padding: 15px 138px 14px 142px;
   }
-  /* .name-team {
-    padding: 15px 0px 15px 0px;
-  } */
-  /* .nav {
-    background-color: var(--blue-green);
-    height: 60px;
-    padding-inline-start: 0px;
-  } */
-  /* .link-nav-media {
-    padding-right: 0px;
-  } */
   .motto {
     margin: -55px 488px 0 138px;
     padding: 15px 30px;
