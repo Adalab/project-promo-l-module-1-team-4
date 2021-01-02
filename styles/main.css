@@ -383,7 +383,6 @@ h2 {
   }
   .about-us {
     margin: 0px;
-    width: 443px;
   }
   .about-left {
     text-align: left;
@@ -431,7 +430,10 @@ h2 {
     margin-right: 138px;
     margin-left: 45px;
   }
-  .about-us {
-    width: 439px;
+  .about-left {
+    margin-right: 300px;
+  }
+  .about-right {
+    margin-left: 299px;
   }
 }
