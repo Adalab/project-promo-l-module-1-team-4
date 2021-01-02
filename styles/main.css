@@ -17,23 +17,12 @@
 /*HEADER*/
 
 .header {
-  background-image: url(../images/ImagenInDemo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 421px;
-  margin: 0 0 46px;
-  padding-right: 0;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 990;
-}
-.fixed {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 999;
 }
-h1 {
+.name-team {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -48,7 +37,7 @@ h1 {
   padding: 15px 80px;
   opacity: 0.95;
 }
-.list {
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,29 +57,41 @@ h1 {
   color: var(--white);
 }
 .link-nav {
-  padding: 15px;
+  padding: 10px;
 }
 .hero {
+  background-image: url(../images/ImagenInDemo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 421px;
+  margin: 0; /*0 0 46px;*/
+  padding-right: 0;
+  /*display: flex;
+flex-direction: column;
+position: relative;
+z-index: 990;*/
+}
+.motto {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: var(--white);
+  background-color: red; /*var(--white);*/
   color: var(--black);
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
-  margin: 290px 15px 0 15px;
+  margin: -30px 15px 0 15px;
   /*padding: 14px 15px 16px;*/
   padding-top: 23px;
   height: 80px;
-  display: block;
+  /*display: block;
   position: relative;
   top: 100px;
   left: 10px;
   right: 10px;
-  z-index: 999;
+  z-index: 999;*/
 }
 
 /*MAIN*/
@@ -321,22 +322,21 @@ h2 {
   .strengths-weaknesses {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .sw {
     align-items: center;
   }
   .strengths-title {
-    /*text-align: center;*/
-    margin: 30px 0 0 0;
+    text-align: center;
+    margin-top: 45px;
   }
   .strengths-text {
-    flex-grow: 5;
-    margin: 0 15px 0 15px;
+    margin-bottom: 45px;
   }
   .weaknesses-title {
-    margin-top: 30px;
-  }
-  .weaknesses-text {
-    flex-grow: 4;
-    /*margin: 0 15px 45px 15px;*/
+    margin-top: 45px;
   }
   .section-2 {
     align-items: center;
