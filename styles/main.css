@@ -296,7 +296,7 @@ h2 {
 
 @media all and (min-width: 768px) {
   header {
-    height: 421px; 
+    height: 421px;
   }
   .header {
     display: flex;
@@ -316,7 +316,7 @@ h2 {
     padding-inline-start: 0px;
   }
   .link-nav-media {
-    padding-right: 0px;;
+    padding-right: 0px;
   }
   .motto {
     text-align: center;
@@ -445,5 +445,11 @@ h2 {
   .img-right {
     margin-right: 138px;
     margin-left: 45px;
+  }
+  .about-left {
+    margin-right: 300px;
+  }
+  .about-right {
+    margin-left: 299px;
   }
 }
