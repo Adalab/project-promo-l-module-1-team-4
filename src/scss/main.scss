@@ -1,0 +1,479 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+  }
+  :root {
+    --blue-green: #099d8d;
+    --grey: #54585a;
+    --cool-grey: #b8b8b9;
+    --aqua: #14d9c4;
+    --black: #000000;
+    --white: #ffffff;
+  }
+  html {
+    scroll-padding-top: 105px;
+  }
+  
+  /*HEADER*/
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+  }
+  .name-team {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: var(--white);
+    background-color: var(--blue-green);
+    text-align: center;
+    height: 60px;
+    padding: 15px 80px;
+    opacity: 0.95;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    height: 45px;
+    opacity: 0.9;
+    background-color: var(--aqua);
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  .link-nav {
+    padding: 10px;
+  }
+  .hero {
+    background-image: url(../images/ImagenInDemo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    margin: 0; /*0 0 46px;*/
+    padding-right: 0px;
+  }
+  .motto {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    background-color: var(--white);
+    color: var(--black);
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    margin: -30px 15px 0 15px;
+    padding: 14px 15px 16px;
+  }
+  .motto:first-letter {
+    text-transform: capitalize;
+  }
+  
+  /*MAIN*/
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px 0 15px;
+  }
+  h2 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--aqua);
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+  .team-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 15px 0 0 0;
+    padding-bottom: 30px;
+  }
+  .square {
+    background-color: var(--white);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0px auto -15px;
+    transform: rotate(45deg);
+  }
+  .strengths-weaknesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(184, 184, 185, 0.2);
+  }
+  .sw {
+    width: 100%;
+  }
+  .strengths-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+    text-transform: capitalize;
+    /*margin: 30px 0 0 0;*/
+    padding: 30px 0 15px 0;
+    
+  }
+  .strengths-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 15px 0 15px;
+  }
+  .weaknesses-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+    text-transform: capitalize;
+    margin-top: 30px;
+  }
+  .weaknesses-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 15px 45px 15px;
+  }
+  
+  /*QUIENES SOMOS*/
+  
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .about {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: var(--blue-green);
+    padding: 30px 0px 30px 0px;
+    background-color: var(--white);
+  }
+  .member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+  }
+  .retrait {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: solid 5px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: cent er;
+    margin-bottom: 15px;
+  }
+  .about-us {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--grey);
+    margin: 0 15px 0 15px;
+  }
+  .social-1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 15px;
+    justify-content: center;
+  }
+  .link {
+    color: var(--blue-green);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 45px; /*30px+15px del padding general=45px*/
+  }
+  
+  /*FOOTER*/
+  
+  .footer {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px var(--cool-grey);
+  }
+  .footer-copy {
+    height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: var(--cool-grey);
+    margin: 30px 74px 20px 74px;
+  }
+  .footer-sections {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0px 103px 30px 103px;
+  }
+  .text-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--grey);
+  }
+  .footer-logo {
+    height: 45px;
+    margin: 0px 102px 41px 102px;
+  }
+  
+  @media all and (min-width: 768px) {
+    html{
+      scroll-padding-top: 60px;
+    }
+    header {
+      height: 421px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--blue-green);
+      padding: 15px 45px 15px 45px;
+      opacity: 0.95;
+      height: 60px;
+    }
+    .name-team {
+      padding: 15px 0px 15px 0px;
+    }
+    .nav {
+      background-color: var(--blue-green);
+      height: 60px;
+      padding-inline-start: 0px;
+    }
+    .link-nav-media {
+      padding-right: 0px;
+    }
+    .motto {
+      background-color: var(--white);
+      margin: -55px 281px 0px 46px;
+      padding: 15px 30px;
+      opacity: 0.8;
+    }
+    h2 {
+      padding-top: 45px;
+      color: var(--blue-green)
+    }
+    .team {
+      margin: 0 45px 0 45px;
+    }
+    .team-text {
+      opacity: 0.67;
+      padding-bottom: 30px;
+    }
+    .strengths-weaknesses {
+      display: flex;
+      flex-direction: row;
+    }
+    .strengths-title {
+      /*margin: 45px 0 0 0;*/
+      padding: 45px 0 15px 0;
+    }
+    .strengths-text {
+      margin: 0 15px 60px 45px;
+    }
+    .weaknesses-title {
+      margin: 45px 0 0 0;
+    }
+    .weaknesses-text {
+      margin: 0 45px 60px 15px;
+    }
+  
+    /*Quienes somos*/
+    .section-2 {
+      align-items: center;
+    }
+    .member {
+      display: grid;
+    }
+  
+    .retrait {
+      width: 205px;
+      height: 205px;
+    }
+    .img-left {
+      grid-row: 1;
+      grid-column: 1;
+      margin-left: 44px;
+      margin-right: 31px;
+    }
+    .img-right {
+      grid-row: 1;
+      grid-column: 2;
+      margin-right: 45px;
+      margin-left: 30px;
+    }
+    .about-us {
+      margin: 0px;
+    }
+    .about-left {
+      text-align: left;
+    }
+    .about-right {
+      text-align: right;
+    }
+    .member-left {
+      grid-row: 1;
+      grid-column: 2;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: flex-start;
+      margin-right: 44px;
+    }
+    .member-right {
+      grid-row: 1;
+      grid-column: 1;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      align-items: flex-end;
+      margin-left: 44px;
+    }
+    .social-1 {
+      justify-content: space-between;
+      width: 124px;
+    }
+    .link {
+      padding: 0px;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    header {
+      height: 420px;
+    }
+    .header {
+      background-color: var(--blue-green);
+      padding: 15px 138px 14px 142px;
+    }
+    .motto {
+      margin: -55px 488px 0 138px;
+      padding: 15px 30px;
+      opacity: 0.8;
+      font-size: 24px;
+      line-height: 1.25;
+    }
+  
+    .team {
+      margin: 0 300px 60px 300px;
+    }
+    .strengths-weaknesses {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .strengths-text {
+      margin: 0 22.5px 60px 138px;
+    }
+    .weaknesses-text {
+      margin: 0 139px 60px 22.5px;
+    }
+    .retrait {
+      width: 278px;
+      height: 278px;
+    }
+    .img-left {
+      margin-left: 138px;
+      margin-right: 45px;
+    }
+    .img-right {
+      margin-right: 138px;
+      margin-left: 45px;
+    }
+    .about-left {
+      margin-right: 300px;
+    }
+    .about-right {
+      margin-left: 299px;
+    }
+  }
+  
