@@ -29,10 +29,7 @@ html {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   color: var(--white);
   background-color: var(--blue-green);
   text-align: center;
@@ -52,10 +49,7 @@ html {
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2;
-  letter-spacing: normal;
   text-transform: uppercase;
   color: var(--white);
 }
@@ -498,7 +492,7 @@ h2 {
   }
   .header {
     background-color: var(--blue-green);
-    padding: 15px 138px 14px 142px;
+    padding: 15px 138px 15px 142px;
   }
   .motto {
     margin: -55px 488px 0 138px;
