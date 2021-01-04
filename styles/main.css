@@ -136,18 +136,23 @@ h2 {
   align-items: center;
   background-color: rgba(184, 184, 185, 0.2);
 }
+.sw {
+  width: 100%;
+}
 .strengths-title {
   font-family: Rubik;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.05;
+  line-height: 45px;
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
   text-transform: capitalize;
-  margin: 30px 0 0 0;
+  /*margin: 30px 0 0 0;*/
+  padding: 30px 0 15px 0;
+  
 }
 .strengths-text {
   font-family: "Open Sans", sans-serif;
@@ -349,7 +354,8 @@ h2 {
     flex-direction: row;
   }
   .strengths-title {
-    margin: 45px 0 0 0;
+    /*margin: 45px 0 0 0;*/
+    padding: 45px 0 15px 0;
   }
   .strengths-text {
     margin: 0 15px 60px 45px;
@@ -445,14 +451,8 @@ h2 {
     flex-direction: row;
     justify-content: center;
   }
-  .strengths-title {
-    margin: 45px 0 0 0;
-  }
   .strengths-text {
     margin: 0 22.5px 60px 138px;
-  }
-  .weaknesses-title {
-    margin: 45px 0 0 0;
   }
   .weaknesses-text {
     margin: 0 139px 60px 22.5px;
