@@ -1,0 +1,177 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px 0 15px;
+  }
+h2 {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--aqua);
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+.team-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 15px 0 0 0;
+    padding-bottom: 30px;
+  }
+  .square {
+    background-color: var(--white);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0px auto -15px;
+    transform: rotate(45deg);
+  }
+  .strengths-weaknesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(184, 184, 185, 0.2);
+  }
+  .sw {
+    width: 100%;
+  }
+  .strengths-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+    text-transform: capitalize;
+    /*margin: 30px 0 0 0;*/
+    padding: 30px 0 15px 0;
+  }
+  .strengths-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 15px 0 15px;
+  }
+  .weaknesses-title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--blue-green);
+    text-transform: capitalize;
+    margin-top: 30px;
+  }
+  .weaknesses-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 15px 45px 15px;
+  }
+  @media all and (min-width: 768px) {
+    h2 {
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.88;
+        text-align: center;
+        color: var(--aqua);
+        text-transform: uppercase;
+        padding-top: 30px;
+      }
+      .team-text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--grey);
+        margin: 15px 0 30px 0;
+        padding-top: 45px;
+        color: var(--blue-green);
+      }
+      .team {
+        margin: 0 45px 0 45px;
+      }
+      .team-text {
+        opacity: 0.67;
+        padding-bottom: 30px;
+      }
+      .strengths-weaknesses {
+        display: flex;
+        flex-direction: row;
+      }
+      .sw-title {
+        font-family: Rubik;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: center;
+        color: var(--blue-green);
+        text-transform: capitalize;
+        padding: 30px 0 0 0;
+      }
+      .strengths-text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--grey);
+        margin: 0 15px 0 15px;
+      }
+      .weaknesses-text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--grey);
+        margin: 0 15px 45px 15px;
+      }
+  }
+
+  @media all and (min-width: 1200px) {
+    .team {
+        margin: 0 300px 60px 300px;
+      }
+      .strengths-weaknesses {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .strengths-text {
+        margin: 0 22.5px 60px 138px;
+      }
+      .weaknesses-text {
+        margin: 0 139px 60px 22.5px;
+      }
+    
+  }

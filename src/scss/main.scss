@@ -84,7 +84,7 @@ html {
 
 /*MAIN*/
 
-.team {
+/*.team {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ h2 {
   color: var(--blue-green);
   text-transform: capitalize;
   /*margin: 30px 0 0 0;*/
-  padding: 30px 0 15px 0;
+  /*padding: 30px 0 15px 0;
 }
 .strengths-text {
   font-family: "Open Sans", sans-serif;
@@ -183,7 +183,7 @@ h2 {
   text-align: center;
   color: var(--grey);
   margin: 0 15px 45px 15px;
-}
+}*/
 
 /*QUIENES SOMOS*/
 
@@ -261,8 +261,8 @@ h2 {
   padding-bottom: 45px; /*30px+15px del padding general=45px*/
 }
 
-/*FOOTER*/
-.footer {
+/* /*FOOTER - copiado en layout - footer*/
+/* .footer {
   border-top: solid 1px var(--cool-grey);
 }
 .footer1 {
@@ -298,7 +298,7 @@ h2 {
 .footer-logo {
   margin: 30px 87px 41px 87px;
   height: 45px;
-}
+} */
 
 @media all and (min-width: 768px) {
   /*html {
@@ -332,8 +332,13 @@ h2 {
     margin: -55px 281px 0px 46px;
     padding: 15px 30px;
     opacity: 0.8;
+<<<<<<< HEAD
   }*/
   h2 {
+=======
+  }
+  /*h2 {
+>>>>>>> b8a483a4ffe82c7c31f8fe668e9b9f17d4524a8a
     font-family: Rubik;
     font-size: 24px;
     font-weight: 500;
@@ -389,7 +394,7 @@ h2 {
     text-align: center;
     color: var(--grey);
     margin: 0 15px 45px 15px;
-  }
+  }*/
   
   /*QUIENES SOMOS*/
   
@@ -459,8 +464,8 @@ h2 {
     padding: 0px;
   }
 
-  /*Footer*/
-  .footer1 {
+  /*Footer Copiado a layout footer*/
+  /* .footer1 {
     height: 170px;
     justify-content: flex-start;
     align-content: space-between;
@@ -484,7 +489,7 @@ h2 {
   .footer-logo {
     height: 45px;
     margin: 15px 0px 0px 0px;
-  }
+  } */
 }
 @media all and (min-width: 1200px) {
   /*header {
@@ -502,7 +507,7 @@ h2 {
     line-height: 1.25;
   }*/
 
-  .team {
+  /*.team {
     margin: 0 300px 60px 300px;
   }
   .strengths-weaknesses {
@@ -515,7 +520,7 @@ h2 {
   }
   .weaknesses-text {
     margin: 0 139px 60px 22.5px;
-  }
+  }*/
 
   /*Quienes somos*/
 
@@ -541,12 +546,12 @@ h2 {
     margin-left: 299px;
   }
 
-  /*Footer*/
-  .footer1 {
+  /*Footer Copiado a layout footer*/
+  /* .footer1 {
     height: 161px;
     margin: 0px 138px;
   }
   .footer-sections {
     margin: 24px 0px 0px 0px;
-  }
+  } */
 }
