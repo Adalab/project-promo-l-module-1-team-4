@@ -261,8 +261,8 @@ h2 {
   padding-bottom: 45px; /*30px+15px del padding general=45px*/
 }
 
-/*FOOTER*/
-.footer {
+/* /*FOOTER - copiado en layout - footer*/
+/* .footer {
   border-top: solid 1px var(--cool-grey);
 }
 .footer1 {
@@ -298,7 +298,7 @@ h2 {
 .footer-logo {
   margin: 30px 87px 41px 87px;
   height: 45px;
-}
+} */
 
 @media all and (min-width: 768px) {
   html {
@@ -459,8 +459,8 @@ h2 {
     padding: 0px;
   }
 
-  /*Footer*/
-  .footer1 {
+  /*Footer Copiado a layout footer*/
+  /* .footer1 {
     height: 170px;
     justify-content: flex-start;
     align-content: space-between;
@@ -484,7 +484,7 @@ h2 {
   .footer-logo {
     height: 45px;
     margin: 15px 0px 0px 0px;
-  }
+  } */
 }
 @media all and (min-width: 1200px) {
   header {
@@ -541,12 +541,12 @@ h2 {
     margin-left: 299px;
   }
 
-  /*Footer*/
-  .footer1 {
+  /*Footer Copiado a layout footer*/
+  /* .footer1 {
     height: 161px;
     margin: 0px 138px;
   }
   .footer-sections {
     margin: 24px 0px 0px 0px;
-  }
+  } */
 }
