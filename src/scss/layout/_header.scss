@@ -1,5 +1,112 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
 }
+.name-team {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  color: var(--white);
+  background-color: var(--blue-green);
+  text-align: center;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  height: 45px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.link-nav {
+  padding: 10px;
+}
+.hero {
+  background-image: url(../images/ImagenInDemo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 421px;
+  margin: 0; /*0 0 46px;*/
+  padding-right: 0px;
+}
+.motto {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  background-color: var(--white);
+  color: var(--black);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  margin: -30px 15px 0 15px;
+  padding: 14px 15px 16px;
+}
+.motto:first-letter {
+  text-transform: capitalize;
+}
+
+@media all and (min-width: 768px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+  header {
+    height: 421px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue-green);
+    padding: 15px 45px 15px 45px;
+    opacity: 0.95;
+    height: 60px;
+  }
+  .name-team {
+    padding: 15px 0px 15px 0px;
+  }
+  .nav {
+    background-color: var(--blue-green);
+    height: 60px;
+    padding-inline-start: 0px;
+  }
+  .link-nav-media {
+    padding-right: 0px;
+  }
+  .motto {
+    background-color: var(--white);
+    margin: -55px 281px 0px 46px;
+    padding: 15px 30px;
+    opacity: 0.8;
+  }
+
+  @media all and (min-width: 1200px) {
+    header {
+      height: 420px;
+    }
+    .header {
+      background-color: var(--blue-green);
+      padding: 15px 138px 15px 142px;
+    }
+    .motto {
+      margin: -55px 488px 0 138px;
+      padding: 15px 30px;
+      opacity: 0.8;
+      font-size: 24px;
+      line-height: 1.25;
+    }
