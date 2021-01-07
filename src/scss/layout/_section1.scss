@@ -3,25 +3,27 @@
   flex-direction: column;
   align-items: center;
   margin: 0 15px 0 15px;
-}
-h2 {
-  font-family: Rubik;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.88;
-  text-align: center;
-  color: var(--aqua);
-  text-transform: uppercase;
-  padding-top: 30px;
-}
-.team-text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--grey);
-  margin: 15px 0 30px 0;
+
+  &__title {
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--aqua);
+    text-transform: uppercase;
+    padding-top: 30px;
+    }
+
+  &__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--grey);
+    margin: 15px 0 30px 0;
+  }
 }
 .square {
   background-color: var(--white);
@@ -36,93 +38,101 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: rgba(184, 184, 185, 0.2);
-}
-.sw {
-  width: 100%;
-}
-.sw-title {
-  font-family: Rubik;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 45px;
-  text-align: center;
-  color: var(--blue-green);
-  text-transform: capitalize;
-  padding: 30px 0 0 0;
-}
-.strengths-text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--grey);
-  margin: 0 15px 0 15px;
-}
-.weaknesses-text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--grey);
-  margin: 0 15px 45px 15px;
+
+  &__sw {
+    width: 100%;
+  
+    &--title {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: var(--blue-green);
+    text-transform: capitalize;
+    padding: 30px 0 0 0;
+    }
+    &--text1 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+      text-align: center;
+      color: var(--grey);
+      margin: 0 15px 0 15px;
+    }
+    &--text2 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+      text-align: center;
+      color: var(--grey);
+      margin: 0 15px 45px 15px;
+    }
+  }
 }
 @media all and (min-width: 768px) {
-  h2 {
-    color: var(--blue-green);
-  }
+
   .team {
     margin: 0 45px 0 45px;
+    
+    &__title {
+      color: var(--blue-green);
+    }
+    &__text {
+      color: var(--grey);
+      opacity: 0.67;
+    }
   }  
-  .team-text {
-    color: var(--grey);
-    opacity: 0.67;
-  }
+  
   .strengths-weaknesses {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-  }
-  .sw1 {
-    margin: 0 0 0 45px;
-  }
-  .sw2 {
+  
+    &__sw--sw1 {
+      margin: 0 0 0 45px;
+    }
+    &__sw--sw2 {
     margin: 0 45px 0 0;
-  }
-  .sw-title1 {
+    }
+    &__sw--title1 {
     margin: 0 15px 0 0;
-  }
-  .strengths-text {
+    }
+    &__sw--text1 {
     margin: 0 15px 0 0;
-  }
-  .sw-title2 {
+    }
+    &__sw--title2 {
     margin: 0 0 0 15px;
-  }
-  .weaknesses-text {
-    margin: 0 0 45px 15px;
+    }
+    &__sw--text1 {
+      margin: 0 0 45px 15px;
+    }
   }
 }
 @media all and (min-width: 1200px) {
   .team {
     margin: 0 300px 30px 300px;
   }
-  .sw1 {
+  .strengths-weaknesses__sw--sw1 {
     margin: 0 0 0 138px;
-  }
-  .sw2 {
-    margin: 0 138px 60px 0;
-  }
-  .sw-title1 {
-      margin: 0 22.5px 0 0;
-  }
-  .strengths-text {
+
+    &--title1 {
+        margin: 0 22.5px 0 0;
+    }
+    &--text1 {
     margin: 0 22.5px 0 0;
+    }
   }
-  .sw-title2 {
-    margin: 0 0 0 22.5px;
-  }
-  .weaknesses-text {
-    margin: 0 0 0 22.5px;
+  .strengths-weaknesses__sw--sw2 {
+    margin: 0 138px 60px 0;
+  
+    &--title2 {
+      margin: 0 0 0 22.5px;
+    }
+    &--text2 {
+      margin: 0 0 0 22.5px;
+    }
   }
 }
