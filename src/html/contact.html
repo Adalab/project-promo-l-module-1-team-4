@@ -21,27 +21,44 @@
             </ul>
           </nav>
         </div>
-        <section class="hero">
-          <div class="hero__motto">if opportunity doesn’t knock, build a door</div>
-        </section>
       </header>
-    <div class="form">
-        <form action="/signup" method="post">
-          <label for="fullname">Nombre completo *</label>
-          <input type="text"
-            id="fullname"
-            name="fullname"
-            placeholder="Nombre..." required
-          />
-          <label for="emailaddress">Correo electrónico *</label>
-          <input type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com" required/>
-          <label for="telephone">Teléfono</label>
-          <input type="tel" id="telephone" name="telephone"  placeholder="Ej: 123456789"/>
-          
-          <textarea rows="8" cols="80" placeholder="¿Qué necesitas?" required>Mensaje *</textarea>
-          <input type="submit" value="ENVIAR" />
-        </form>
-      </div>
+    <main>
+      <section class="section1">
+        <h2>Contacto</h2>
+        <div>
+          <p></p>
+          <small></small>
+        </div>
+      </section>
+      <section class="section2">
+            <form action="/signup" method="post">
+              <div class="fullname">
+                <label for="fullname">Nombre completo *</label>
+                <input type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Nombre..." required
+                />
+              </div>
+              <div class="email">
+                <label for="emailaddress">Email *</label>
+                <input type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com" required/>
+              </div>
+              <div class="telephone">
+                <label for="telephone">Teléfono</label>
+                <input type="tel" id="telephone" name="telephone"  placeholder="Ej: 123456789"/>
+              </div>
+              <div class="message">
+                <label for="message"> Mensaje *</label>
+                <textarea rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
+
+              </div>
+              <div class="button">
+                <input type="submit" value="ENVIAR" />
+              </div>
+            </form>
+      </section>
+    </main>
     <footer class="footer">
         <div class="footer1">
           <div class="footer-copy">#InDemo &copy; 2020</div>
