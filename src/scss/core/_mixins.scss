@@ -1,0 +1,13 @@
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+// @include flexColumn(); - hay que poner en las parciales
+
+@mixin t($fontFamily, $fontSize) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+
+// @include t("Open Sans", sans-serif, 16px);  - ejemplo, como tenemos que  poner en las parciales

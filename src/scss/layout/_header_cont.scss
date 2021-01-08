@@ -25,8 +25,7 @@
       }
 
       &--white {
-      font-family: "Rubik", sans-serif;
-      font-size: 16px;
+      @include t("Rubik", sans-serif, 16px);
       font-weight: 500;
       line-height: 1.88;
       color: var(--white);
@@ -57,8 +56,7 @@
     opacity: 0.9;
     background-color: var(--aqua);
     list-style-type: none;
-    font-family: "Rubik", sans-serif;
-    font-size: 15px;
+    @include t("Rubik", sans-serif, 15px);
     font-weight: 500;
     line-height: 2;
     text-transform: uppercase;
@@ -77,12 +75,3 @@
       }
     }
   }
-
-
-//   .hero {
-//     background-image: url(../images/ImagenInDemo.png);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height: 421px;
-//     padding-right: 0px;
-//   }
