@@ -1,107 +1,79 @@
 .header {
-    &__title {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-    @media all and (min-width: 768px) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--blue-green);
-        padding: 15px 45px 15px 45px;
-        opacity: 0.95;
-        height: 60px;
-      }
-      @media all and (min-width: 1200px) {
-          background-color: var(--blue-green);
-          padding: 15px 138px 15px 142px;
-      }
-      &--white {
-      font-family: "Rubik", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.88;
-      color: var(--white);
+  background-image: url(../images/ImagenInDemo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 421px;
+  padding-right: 0px;
+
+  &__title {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  @media all and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       background-color: var(--blue-green);
-      text-align: center;
-      height: 60px;
-      padding: 15px 80px;
+      padding: 15px 45px 15px 45px;
       opacity: 0.95;
-      @media all and (min-width: 768px) {
-        padding: 15px 0px 15px 0px;
-      }
-      }
-      }
-      @media all and (min-width: 768px) {
-        height: 421px;
-      }
-      @media all and (min-width: 1200px) {
-          height: 420px;
-        }
-  }
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-    height: 45px;
-    opacity: 0.9;
-    background-color: var(--aqua);
-    list-style-type: none;
-    font-family: "Rubik", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 2;
-    text-transform: uppercase;
-    color: var(--white);
-    @media all and (min-width: 768px) {
-        background-color: var(--blue-green);
-        height: 60px;
-        padding-inline-start: 0px;
-    }
-    &__link {
-      padding: 10px;
-      &--padding {
-        @media all and (min-width: 768px) {
-            padding-right: 0px;
-          }
-      }
-    }
-  }
-  .hero {
-    background-image: url(../images/ImagenInDemo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 421px;
-    padding-right: 0px;
-    &__motto {
-      font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: left;
-    background-color: var(--white);
-    color: var(--black);
-    line-height: 1.39;
-    margin: 0px 15px 0 15px;
-    padding: 14px 15px 16px;
-    position: relative;
-    bottom: -387px;
-    @media all and (min-width: 768px) {
-        background-color: var(--white);
-        margin: -55px 281px 0px 46px;
-        padding: 15px 30px;
-        opacity: 0.8;
+      height: 60px;
     }
     @media all and (min-width: 1200px) {
-        margin: -55px 488px 0 138px;
-        padding: 15px 30px;
-        opacity: 0.8;
-        font-size: 24px;
-        line-height: 1.25;
+        background-color: var(--blue-green);
+        padding: 15px 138px 15px 142px;
+    }
+
+    &--white {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.88;
+    color: var(--white);
+    background-color: var(--blue-green);
+    text-align: center;
+    height: 60px;
+    padding: 15px 80px;
+    opacity: 0.95;
+    @media all and (min-width: 768px) {
+      padding: 15px 0px 15px 0px;
     }
     }
+    }
+    @media all and (min-width: 768px) {
+      height: 421px;
+    }
+    @media all and (min-width: 1200px) {
+        height: 420px;
+      }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  height: 45px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  text-transform: uppercase;
+  color: var(--white);
+  @media all and (min-width: 768px) {
+      background-color: var(--blue-green);
+      height: 60px;
+      padding-inline-start: 0px;
   }
-  .hero__motto:first-letter {
-    text-transform: capitalize;
+  &__link {
+    padding: 10px;
+    &--padding {
+      @media all and (min-width: 768px) {
+          padding-right: 0px;
+        }
+    }
   }
+}
