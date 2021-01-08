@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +10,7 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
+
 <body>
 
   <header class="header">
@@ -24,38 +26,38 @@
     </div>
   </header>
 
-    <main>
-      <section class="section1">
-        <div>
-          <h2 class="section1__title">Contacto</h2>
-          <p class="section1__text">Si quieres contactar con nosotras para cualquier cuestión, puedes hacerlo a través de nuestras redes sociales o rellenar el formulario que ves a continuación y te responderemos en breve.</p>
-          <p class="section1__text--small">Todos los campos marcados con <span class="section1__text--small--asterisk">*</span> son obligatorios.</p>
-        </div>
-      </section>
-      <section class="section2">
-        <form class="form" action="/signup" method="post" >
-          
-            <label class="label" for="fullname">Nombre completo <span class="asterisk">&#42;</span></label>
-            <input class="box" type="text"
-              id="fullname"
-              name="fullname"
-              placeholder="Nombre..." required
-            />
-  
-            <label class="label" for="emailaddress">Email <span class="asterisk">&#42;</span></label>
-            <input class="box"  type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com" required/>
-        
-            <label class="label" for="telephone">Teléfono</label>
-            <input class="box"  type="tel" id="telephone" name="telephone"  placeholder="Ej: 123456789"/>
-         
-            <label class="label" for="message"> Mensaje <span class="asterisk">&#42;</span></label>
-            <textarea class="box message"  rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
-  
-            <input class="button"  type="submit" value="ENVIAR" />
-          
-        </form>
-  </section>
-    </main>
-    <include src="./partials/footer.html"></include>
+  <main>
+    <section class="section1">
+      <div>
+        <h2 class="section1__title">Contacto</h2>
+        <p class="section1__text">Si quieres contactar con nosotras para cualquier cuestión, puedes hacerlo a través de
+          nuestras redes sociales o rellenar el formulario que ves a continuación y te responderemos en breve.</p>
+        <p class="section1__text--small">Todos los campos marcados con <span
+            class="section1__text--small--asterisk">*</span> son obligatorios.</p>
+      </div>
+    </section>
+    <section class="section2">
+      <form class="form" action="https://formspree.io/f/myybljbv" method="post">
+
+        <label class="label" for="fullname">Nombre completo <span class="asterisk">&#42;</span></label>
+        <input class="box" type="text" id="fullname" name="fullname" placeholder="Nombre..." required />
+
+        <label class="label" for="emailaddress">Email <span class="asterisk">&#42;</span></label>
+        <input class="box" type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com"
+          required />
+
+        <label class="label" for="telephone">Teléfono</label>
+        <input class="box" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" />
+
+        <label class="label" for="message"> Mensaje <span class="asterisk">&#42;</span></label>
+        <textarea class="box message" rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
+
+        <input class="button" type="submit" value="ENVIAR" />
+
+      </form>
+    </section>
+  </main>
+  <include src="./partials/footer.html"></include>
 </body>
+
 </html>
