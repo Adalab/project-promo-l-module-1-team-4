@@ -11,11 +11,21 @@
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Otra página del starter kit</h1>
+      <header class="header">
+        <div class="header__title">
+          <h1 class="header__title--white">#InDemo</h1>
+          <nav>
+            <ul class="nav">
+              <li><a class="nav__link" href="#team1" title="A sección Equipo">equipo</a></li>
+              <li><a class="nav__link" href="#about-us" title="A sección sobre nosotras">quiénes somos</a></li>
+              <li><a class="nav__link nav__link--padding" href="" title="A contactarnos">contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section class="hero">
+          <div class="hero__motto">if opportunity doesn’t knock, build a door</div>
+        </section>
       </header>
-
       <main>
         <p>
           Esta es otra segunda página del Starter kit. Mira el fichero
@@ -23,14 +33,18 @@
           que te ha traído hasta aquí.
         </p>
       </main>
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+      <footer class="footer">
+        <div class="footer1">
+          <div class="footer-copy">#InDemo &copy; 2020</div>
+          <ul class="footer-sections">
+            <li class="text-link"><a href="#team1">equipo</a></li>
+            <li class="text-link"><a href="#about-us">quiénes somos</a></li>
+            <li class="text-link"><a href="/contacto.html">contacto</a></li>
+          </ul>
+          <a href="https://www.adalab.es" target="_blank"> <img class="footer-logo" src="./assets/images/logo-adalab.svg"
+              alt="logo Adalab" /></a>
+        </div>
       </footer>
-
     </div>
     <script src="./assets/js/main.js"></script>
   </body>

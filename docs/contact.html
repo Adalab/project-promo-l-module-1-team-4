@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de grupo 4</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">
+          <h1 class="header__title--white">#InDemo</h1>
+          <nav>
+            <ul class="nav">
+              <li><a class="nav__link" href="#team1" title="A sección Equipo">equipo</a></li>
+              <li><a class="nav__link" href="#about-us" title="A sección sobre nosotras">quiénes somos</a></li>
+              <li><a class="nav__link nav__link--padding" href="" title="A contactarnos">contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section class="hero">
+          <div class="hero__motto">if opportunity doesn’t knock, build a door</div>
+        </section>
+      </header>
+    <div class="form">
+        <form action="/signup" method="post">
+          <label for="fullname">Nombre completo *</label>
+          <input type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Nombre..." required
+          />
+          <label for="emailaddress">Correo electrónico *</label>
+          <input type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com" required/>
+          <label for="telephone">Teléfono</label>
+          <input type="tel" id="telephone" name="telephone"  placeholder="Ej: 123456789"/>
+          
+          <textarea rows="8" cols="80" placeholder="¿Qué necesitas?" required>Mensaje *</textarea>
+          <input type="submit" value="ENVIAR" />
+        </form>
+      </div>
+    <footer class="footer">
+        <div class="footer1">
+          <div class="footer-copy">#InDemo &copy; 2020</div>
+          <ul class="footer-sections">
+            <li class="text-link"><a href="#team1">equipo</a></li>
+            <li class="text-link"><a href="#about-us">quiénes somos</a></li>
+            <li class="text-link"><a href="/contacto.html">contacto</a></li>
+          </ul>
+          <a href="https://www.adalab.es" target="_blank"> <img class="footer-logo" src="./assets/images/logo-adalab.svg"
+              alt="logo Adalab" /></a>
+        </div>
+    </footer>
+</body>
+</html>
