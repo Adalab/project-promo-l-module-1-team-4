@@ -18,8 +18,7 @@
         padding: 15px 138px 15px 142px;
     }
     &--white {
-    font-family: "Rubik", sans-serif;
-    font-size: 16px;
+    @include t("Rubik", sans-serif, 16px);
     font-weight: 500;
     line-height: 1.88;
     color: var(--white);
@@ -49,8 +48,7 @@
   opacity: 0.9;
   background-color: var(--aqua);
   list-style-type: none;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
+  @include t("Rubik", sans-serif, 15px);
   font-weight: 500;
   line-height: 2;
   text-transform: uppercase;
@@ -76,17 +74,16 @@
   height: 421px;
   padding-right: 0px;
   &__motto {
-    font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: left;
-  background-color: var(--white);
-  color: var(--black);
-  line-height: 1.39;
-  margin: 0px 15px 0 15px;
-  padding: 14px 15px 16px;
-  position: relative;
-  bottom: -387px;
+    @include t("Open Sans", sans-serif, 18px);
+    font-weight: 600;
+    text-align: left;
+    background-color: var(--white);
+    color: var(--black);
+    line-height: 1.39;
+    margin: 0px 15px 0 15px;
+    padding: 14px 15px 16px;
+    position: relative;
+    bottom: -387px;
   @media all and (min-width: 768px) {
       background-color: var(--white);
       margin: -55px 281px 0px 46px;
