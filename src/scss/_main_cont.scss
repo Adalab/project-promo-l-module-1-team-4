@@ -1,0 +1,79 @@
+.header {
+    background-image: url(../images/ContactPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    padding-right: 0px;
+  
+    &__title {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    @media all and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--blue-green);
+        padding: 15px 45px 15px 45px;
+        opacity: 0.95;
+        height: 60px;
+      }
+      @media all and (min-width: 1200px) {
+          background-color: var(--blue-green);
+          padding: 15px 138px 15px 142px;
+      }
+  
+      &--white {
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.88;
+      color: var(--white);
+      background-color: var(--blue-green);
+      text-align: center;
+      height: 60px;
+      padding: 15px 80px;
+      opacity: 0.95;
+      @media all and (min-width: 768px) {
+        padding: 15px 0px 15px 0px;
+      }
+      }
+      }
+      @media all and (min-width: 768px) {
+        height: 421px;
+      }
+      @media all and (min-width: 1200px) {
+          height: 420px;
+        }
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    height: 45px;
+    opacity: 0.9;
+    background-color: var(--aqua);
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    text-transform: uppercase;
+    color: var(--white);
+    @media all and (min-width: 768px) {
+        background-color: var(--blue-green);
+        height: 60px;
+        padding-inline-start: 0px;
+    }
+    &__link {
+      padding: 10px;
+      &--padding {
+        @media all and (min-width: 768px) {
+            padding-right: 0px;
+          }
+      }
+    }
+  }
