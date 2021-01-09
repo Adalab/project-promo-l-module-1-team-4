@@ -1,63 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de grupo 4</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página de grupo 4</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="header__title">
-      <h1 class="header__title--white">#InDemo</h1>
-      <nav>
-        <ul class="nav">
-          <li><a class="nav__link" href="./index.html#team1" title="Equipo">equipo</a></li>
-          <li><a class="nav__link" href="./index.html#about-us" title="Quiénes somos">quiénes somos</a></li>
-          <li><a class="nav__link nav__link--padding" href="" title="Contacto">contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="section1">
-      <div>
-        <h2 class="section1__title">Contacto</h2>
-        <p class="section1__text">Si quieres contactar con nosotras para cualquier cuestión, puedes hacerlo a través de
-          nuestras redes sociales o rellenar el formulario que ves a continuación y te responderemos en breve.</p>
-        <p class="section1__text--small">Todos los campos marcados con <span
-            class="section1__text--small--asterisk">*</span> son obligatorios.</p>
+  <body>
+    <header class="header">
+      <div class="header__title">
+        <h1 class="header__title--white">#InDemo</h1>
+        <nav>
+          <ul class="nav">
+            <li>
+              <a class="nav__link" href="./index.html#team1" title="Equipo"
+                >equipo</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav__link"
+                href="./index.html#about-us"
+                title="Quiénes somos"
+                >quiénes somos</a
+              >
+            </li>
+            <li>
+              <a class="nav__link nav__link--padding" href="" title="Contacto"
+                >contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
-    </section>
-    <section class="section2">
-      <form class="form" action="https://formspree.io/f/myybljbv" method="post">
+    </header>
 
-        <label class="label" for="fullname">Nombre completo <span class="asterisk">&#42;</span></label>
-        <input class="box" type="text" id="fullname" name="fullname" placeholder="Nombre..." required />
+    <main>
+      <section class="section1">
+        <div>
+          <h2 class="section1__title">Contacto</h2>
+          <p class="section1__text">
+            Si quieres contactar con nosotras para cualquier cuestión, puedes
+            hacerlo a través de nuestras redes sociales o rellenar el formulario
+            que ves a continuación y te responderemos en breve.
+          </p>
+          <p class="section1__text--small">
+            Todos los campos marcados con
+            <span class="section1__text--small--asterisk">*</span> son
+            obligatorios.
+          </p>
+        </div>
+      </section>
+      <section class="section2">
+        <form
+          class="form"
+          action="https://formspree.io/f/myybljbv"
+          method="post"
+        >
+          <label class="label label--fullname" for="fullname"
+            >Nombre completo <span class="asterisk">&#42;</span></label
+          >
+          <input
+            class="box box--fullname"
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Nombre..."
+            required
+          />
 
-        <label class="label" for="emailaddress">Email <span class="asterisk">&#42;</span></label>
-        <input class="box" type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com"
-          required />
+          <label class="label label--emailaddress" for="emailaddress"
+            >Email <span class="asterisk">&#42;</span></label
+          >
+          <input
+            class="box box--emailaddress"
+            type="email"
+            id="emailaddress"
+            name="emailaddress"
+            placeholder="nombre.apellidos@mail.com"
+            required
+          />
 
-        <label class="label" for="telephone">Teléfono</label>
-        <input class="box" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" />
+          <label class="label label--telefphone" for="telephone"
+            >Teléfono</label
+          >
+          <input
+            class="box box--telephone"
+            type="tel"
+            id="telephone"
+            name="telephone"
+            placeholder="Ej: 123456789"
+          />
 
-        <label class="label" for="message"> Mensaje <span class="asterisk">&#42;</span></label>
-        <textarea class="box message" rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
+          <label class="label label--message" for="message">
+            Mensaje <span class="asterisk">&#42;</span></label
+          >
+          <textarea
+            class="box box--message"
+            cols="8"
+            rows="80"
+            placeholder="¿Qué necesitas?"
+            required
+          ></textarea>
 
-        <input class="button" type="submit" value="ENVIAR" />
-
-      </form>
-    </section>
-  </main>
-  <include src="./partials/footer.html"></include>
-</body>
-
+          <input class="button" type="submit" value="ENVIAR" />
+        </form>
+      </section>
+    </main>
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
