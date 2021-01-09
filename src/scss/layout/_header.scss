@@ -1,10 +1,10 @@
 .header {
   &__title {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 999;
-  @media all and (min-width: 768px) {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    @media all and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -14,30 +14,30 @@
       height: 60px;
     }
     @media all and (min-width: 1200px) {
-        background-color: var(--blue-green);
-        padding: 15px 138px 15px 142px;
+      background-color: var(--blue-green);
+      padding: 15px 138px 15px 142px;
     }
     &--white {
-    @include t("Rubik", sans-serif, 16px);
-    font-weight: 500;
-    line-height: 1.88;
-    color: var(--white);
-    background-color: var(--blue-green);
-    text-align: center;
-    height: 60px;
-    padding: 15px 80px;
-    opacity: 0.95;
-    @media all and (min-width: 768px) {
-      padding: 15px 0px 15px 0px;
-    }
-    }
-    }
-    @media all and (min-width: 768px) {
-      height: 421px;
-    }
-    @media all and (min-width: 1200px) {
-        height: 420px;
+      /* @include t("Rubik", sans-serif, 16px); */
+      font-weight: 500;
+      line-height: 1.88;
+      color: var(--white);
+      background-color: var(--blue-green);
+      text-align: center;
+      height: 60px;
+      padding: 15px 80px;
+      opacity: 0.95;
+      @media all and (min-width: 768px) {
+        padding: 15px 0px 15px 0px;
       }
+    }
+  }
+  @media all and (min-width: 768px) {
+    height: 421px;
+  }
+  @media all and (min-width: 1200px) {
+    height: 420px;
+  }
 }
 .nav {
   display: flex;
@@ -48,22 +48,22 @@
   opacity: 0.9;
   background-color: var(--aqua);
   list-style-type: none;
-  @include t("Rubik", sans-serif, 15px);
+  /* @include t("Rubik", sans-serif, 15px); */
   font-weight: 500;
   line-height: 2;
   text-transform: uppercase;
   color: var(--white);
   @media all and (min-width: 768px) {
-      background-color: var(--blue-green);
-      height: 60px;
-      padding-inline-start: 0px;
+    background-color: var(--blue-green);
+    height: 60px;
+    padding-inline-start: 0px;
   }
   &__link {
     padding: 10px;
     &--padding {
       @media all and (min-width: 768px) {
-          padding-right: 0px;
-        }
+        padding-right: 0px;
+      }
     }
   }
 }
@@ -74,7 +74,7 @@
   height: 421px;
   padding-right: 0px;
   &__motto {
-    @include t("Open Sans", sans-serif, 18px);
+    /* @include t("Open Sans", sans-serif, 18px); */
     font-weight: 600;
     text-align: left;
     background-color: var(--white);
@@ -84,19 +84,19 @@
     padding: 14px 15px 16px;
     position: relative;
     bottom: -387px;
-  @media all and (min-width: 768px) {
+    @media all and (min-width: 768px) {
       background-color: var(--white);
       margin: -55px 281px 0px 46px;
       padding: 15px 30px;
       opacity: 0.8;
-  }
-  @media all and (min-width: 1200px) {
+    }
+    @media all and (min-width: 1200px) {
       margin: -55px 488px 0 138px;
       padding: 15px 30px;
       opacity: 0.8;
       font-size: 24px;
       line-height: 1.25;
-  }
+    }
   }
 }
 .hero__motto:first-letter {
