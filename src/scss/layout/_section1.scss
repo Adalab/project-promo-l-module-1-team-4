@@ -24,14 +24,14 @@
     color: var(--grey);
     margin: 15px 0 30px 0;
   }
-}
-.square {
-  background-color: var(--white);
-  width: 30px;
-  height: 30px;
-  display: flex;
-  margin: 0px auto -15px;
-  transform: rotate(45deg);
+  &__square {
+    background-color: var(--white);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    transform: rotate(45deg);
+  }
 }
 .strengths-weaknesses {
   display: flex;
