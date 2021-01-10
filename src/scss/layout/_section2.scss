@@ -89,7 +89,10 @@
     }
   }
 }
-
+.bullet_point {
+  color: $font_blue-green;
+  padding-top: 15px;
+}
 @media all and (min-width: 768px) {
   .member__img--left {
     grid-row: 1;
@@ -124,6 +127,9 @@
     flex-direction: column;
     align-items: flex-end;
     margin-left: 44px;
+  }
+  .bullet_point {
+    padding-top: 0px;
   }
 }
 @media all and (min-width: 1200px) {

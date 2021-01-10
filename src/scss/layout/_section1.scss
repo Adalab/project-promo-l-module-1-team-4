@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 15px 0 15px;
+  background-color: $background_white;
 
   &__title {
     font-family: $font_Rubik;
@@ -118,21 +119,34 @@
   .strengths-weaknesses__sw--sw1 {
     margin: 0 0 0 138px;
 
-    &--title1 {
+   /*&--title1 {
         margin: 0 22.5px 0 0;
     }
     &--text1 {
     margin: 0 22.5px 0 0;
-    }
+    }*/
   }
+  .strengths-weaknesses__sw--title1 {
+      margin: 0 22.5px 0 0;
+    }
+  .strengths-weaknesses__sw--text1 {
+      margin: 0 22.5px 0 0;
+    }
   .strengths-weaknesses__sw--sw2 {
-    margin: 0 138px 60px 0;
+      margin: 0 138px 60px 0;
+    }
   
-    &--title2 {
+    /*&--title2 {
       margin: 0 0 0 22.5px;
     }
     &--text2 {
       margin: 0 0 0 22.5px;
     }
-  }
+  }*/
+  .strengths-weaknesses__sw--title2 {
+      margin: 0 0 0 22.5px;
+    }
+  .strengths-weaknesses__sw--text2 {
+      margin: 0 0 0 22.5px;
+    }
 }
