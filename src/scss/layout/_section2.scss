@@ -11,11 +11,11 @@
 .about {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: $font_Rubik;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
-  color: var(--blue-green);
+  color: $font_blue-green;
   padding: 30px 0px 30px 0px;
   background-color: var(--white);
 }
@@ -30,7 +30,7 @@
   &__name {
     text-align: center;
     text-transform: capitalize;
-    font-family: "Open Sans", sans-serif;
+    font-family: $font_OpenSans;
     font-size: 20px;
     line-height: 2.25;
   }
@@ -55,10 +55,10 @@
 
   &__about--us {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: $font_OpenSans;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--grey);
+    color: $font_grey;
     margin: 0 15px 0 15px;
     @media all and (min-width: 768px) {
       margin: 0px;
@@ -77,7 +77,7 @@
   }
 
   &__link {
-    color: var(--blue-green);
+    color: $font_blue-green;
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -89,7 +89,6 @@
     }
   }
 }
-/*768*/
 
 @media all and (min-width: 768px) {
   .member__img--left {

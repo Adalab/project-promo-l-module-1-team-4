@@ -5,27 +5,27 @@
   margin: 0 15px 0 15px;
 
   &__title {
-    font-family: "Rubik", sans-serif;
+    font-family: $font_Rubik;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.88;
     text-align: center;
-    color: var(--aqua);
+    color: $font_aqua;
     text-transform: uppercase;
     padding-top: 30px;
     }
 
   &__text {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-family: $font_OpenSans;
+    font-size: $font_size_text;
     font-weight: normal;
     line-height: 1.5;
     text-align: center;
-    color: var(--grey);
+    color: $font_grey;
     margin: 15px 0 30px 0;
   }
   &__square {
-    background-color: var(--white);
+    background-color: $background_white;
     width: 30px;
     height: 30px;
     position: relative;
@@ -43,31 +43,31 @@
     width: 100%;
   
     &--title {
-    font-family: Rubik;
+    font-family: $font_Rubik;
     font-size: 22px;
     font-weight: 500;
     line-height: 45px;
     text-align: center;
-    color: var(--blue-green);
+    color: $font_blue-green;
     text-transform: capitalize;
     padding: 30px 0 0 0;
     }
     &--text1 {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
+      font-family: $font_OpenSans;
+      font-size: $font_size_text;
       font-weight: normal;
       line-height: 1.5;
       text-align: center;
-      color: var(--grey);
+      color: $font_grey;
       margin: 0 15px 0 15px;
     }
     &--text2 {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
+      font-family: $font_OpenSans;
+      font-size: $font_size_text;
       font-weight: normal;
       line-height: 1.5;
       text-align: center;
-      color: var(--grey);
+      color: $font_grey;
       margin: 0 15px 45px 15px;
     }
   }
@@ -78,10 +78,10 @@
     margin: 0 45px 0 45px;
     
     &__title {
-      color: var(--blue-green);
+      color: $font_blue-green;
     }
     &__text {
-      color: var(--grey);
+      color: $font_grey;
       opacity: 0.67;
     }
   }  
