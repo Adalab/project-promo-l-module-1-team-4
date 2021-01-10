@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,50 +10,73 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
+
 <body>
-    <header class="header">
-        <div class="header__title">
-          <h1 class="header__title--white">#InDemo</h1>
-          <nav>
-            <ul class="nav">
-              <li><a class="nav__link" href="#team1" title="A sección Equipo">equipo</a></li>
-              <li><a class="nav__link" href="#about-us" title="A sección sobre nosotras">quiénes somos</a></li>
-              <li><a class="nav__link nav__link--padding" href="" title="A contactarnos">contacto</a></li>
-            </ul>
-          </nav>
-        </div>
-        <section class="hero">
-          <div class="hero__motto">if opportunity doesn’t knock, build a door</div>
-        </section>
-      </header>
-    <div class="form">
-        <form action="/signup" method="post">
-          <label for="fullname">Nombre completo *</label>
-          <input type="text"
-            id="fullname"
-            name="fullname"
-            placeholder="Nombre..." required
-          />
-          <label for="emailaddress">Correo electrónico *</label>
-          <input type="email" id="emailaddress" name="emailaddress" placeholder="nombre.apellidos@mail.com" required/>
-          <label for="telephone">Teléfono</label>
-          <input type="tel" id="telephone" name="telephone"  placeholder="Ej: 123456789"/>
-          
-          <textarea rows="8" cols="80" placeholder="¿Qué necesitas?" required>Mensaje *</textarea>
-          <input type="submit" value="ENVIAR" />
-        </form>
-      </div>
-    <footer class="footer">
-        <div class="footer1">
-          <div class="footer-copy">#InDemo &copy; 2020</div>
-          <ul class="footer-sections">
-            <li class="text-link"><a href="#team1">equipo</a></li>
-            <li class="text-link"><a href="#about-us">quiénes somos</a></li>
-            <li class="text-link"><a href="/contacto.html">contacto</a></li>
+  <header class="header">
+      <div class="header__title">
+        <h1 class="header__title--white">#InDemo</h1>
+        <nav>
+          <ul class="nav">
+            <li><a class="nav__link" href="../index.html#team1" title="Sobre el equipo">equipo</a></li>
+            <li><a class="nav__link" href="../index.html#about-us" title="Sobre nosotras">quiénes somos</a></li>
+            <li><a class="nav__link nav__link--padding" href="./contact.html" title="Para contactarnos">contacto</a></li>
           </ul>
-          <a href="https://www.adalab.es" target="_blank"> <img class="footer-logo" src="./assets/images/logo-adalab.svg"
-              alt="logo Adalab" /></a>
-        </div>
-    </footer>
+        </nav>
+      </div>
+    </header>
+  <main>
+  <section class="section1">
+      <div>
+        <h2 class="section1__title">Contacto</h2>
+        <p class="section1__text">
+          Si quieres contactar con nosotras para cualquier cuestión, puedes
+          hacerlo a través de nuestras redes sociales o rellenar el formulario
+          que ves a continuación y te responderemos en breve.
+        </p>
+        <p class="section1__text--small">
+          Todos los campos marcados con
+          <span class="section1__text--small--asterisk">*</span> son
+          obligatorios.
+        </p>
+      </div>
+    </section>
+  <section class="section2">
+      <form class="form" action="https://formspree.io/f/myybljbv" method="post">
+        <label class="form__label form__label--fullname" for="fullname">Nombre completo<span
+            class="form__span--asterisk">&#42;</span></label>
+        <input class="form__box form__box--fullname" type="text" id="fullname" name="fullname" placeholder="Nombre..."
+          required />
+
+        <label class="form__label form__label--emailaddress" for="emailaddress">Email <span
+            class="form__span--asterisk">&#42;</span></label>
+        <input class="form__box form__box--emailaddress" type="email" id="emailaddress" name="emailaddress"
+          placeholder="nombre.apellidos@mail.com" required />
+
+        <label class="form__label form__label--telefphone" for="telephone">Teléfono</label>
+        <input class="form__box form__box--telephone" type="tel" id="telephone" name="telephone"
+          placeholder="Ej: 123456789" />
+
+        <label class="form__label form__label--message" for="message">
+          Mensaje <span class="form__span--asterisk">&#42;</span></label>
+        <textarea class="form__box form__box--message" cols="8" rows="80" placeholder="¿Qué necesitas?"
+          required></textarea>
+
+        <input class="form__button" type="submit" value="ENVIAR" />
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__wrapper--copy">#InDemo &copy; 2020</div>
+      <ul class="footer__wrapper--nav">
+        <li class="text-link"><a href="./index.html#team1">equipo</a></li>
+        <li class="text-link"><a href="./index.html#about-us">quiénes somos</a></li>
+        <li class="text-link"><a href="./contact.html">contacto</a></li>
+      </ul>
+      <a href="https://www.adalab.es" target="_blank"> <img class="footer__wrapper--img" src="./assets/images/logo-adalab.svg"
+          alt="logo Adalab" /></a>
+    </div>
+  </footer>
 </body>
+
 </html>
