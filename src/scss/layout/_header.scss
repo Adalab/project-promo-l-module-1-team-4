@@ -8,21 +8,23 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: var(--blue-green);
+      background-color: $background_blue-green;
       padding: 15px 45px 15px 45px;
       opacity: 0.95;
       height: 60px;
     }
     @media all and (min-width: 1200px) {
-      background-color: var(--blue-green);
+      background-color: $background_blue-green;
       padding: 15px 138px 15px 142px;
     }
     &--white {
       /* @include t("Rubik", sans-serif, 16px); */
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
       font-weight: 500;
       line-height: 1.88;
-      color: var(--white);
-      background-color: var(--blue-green);
+      color: $font_white;
+      background-color: $background_blue-green;
       text-align: center;
       height: 60px;
       padding: 15px 80px;
@@ -46,15 +48,17 @@
   margin: 0px;
   height: 45px;
   opacity: 0.9;
-  background-color: var(--aqua);
+  background-color: $background_aqua;
   list-style-type: none;
   /* @include t("Rubik", sans-serif, 15px); */
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
   font-weight: 500;
   line-height: 2;
   text-transform: uppercase;
-  color: var(--white);
+  color: $font_white;
   @media all and (min-width: 768px) {
-    background-color: var(--blue-green);
+    background-color: $background_blue-green;
     height: 60px;
     padding-inline-start: 0px;
   }
@@ -75,17 +79,19 @@
   padding-right: 0px;
   &__motto {
     /* @include t("Open Sans", sans-serif, 18px); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
     font-weight: 600;
     text-align: left;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: $background_white;
+    color: $font_black;
     line-height: 1.39;
     margin: 0px 15px 0 15px;
     padding: 14px 15px 16px;
     position: relative;
     bottom: -387px;
     @media all and (min-width: 768px) {
-      background-color: var(--white);
+      background-color: $background_white;
       margin: -55px 281px 0px 46px;
       padding: 15px 30px;
       opacity: 0.8;
