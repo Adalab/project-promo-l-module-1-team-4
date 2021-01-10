@@ -12,65 +12,10 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__title">
-      <h1 class="header__title--white">#InDemo</h1>
-      <nav>
-        <ul class="nav">
-          <li>
-            <a class="nav__link" href="./index.html#team1" title="Equipo">equipo</a>
-          </li>
-          <li>
-            <a class="nav__link" href="./index.html#about-us" title="Quiénes somos">quiénes somos</a>
-          </li>
-          <li>
-            <a class="nav__link nav__link--padding" href="" title="Contacto">contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
+  <include src="./partials/header_cont.html"></include>
   <main>
-    <section class="section1">
-      <div>
-        <h2 class="section1__title">Contacto</h2>
-        <p class="section1__text">
-          Si quieres contactar con nosotras para cualquier cuestión, puedes
-          hacerlo a través de nuestras redes sociales o rellenar el formulario
-          que ves a continuación y te responderemos en breve.
-        </p>
-        <p class="section1__text--small">
-          Todos los campos marcados con
-          <span class="section1__text--small--asterisk">*</span> son
-          obligatorios.
-        </p>
-      </div>
-    </section>
-    <section class="section2">
-      <form class="form" action="https://formspree.io/f/myybljbv" method="post">
-        <label class="form__label form__label--fullname" for="fullname">Nombre completo<span
-            class="form__span--asterisk">&#42;</span></label>
-        <input class="form__box form__box--fullname" type="text" id="fullname" name="fullname" placeholder="Nombre..."
-          required />
-
-        <label class="form__label form__label--emailaddress" for="emailaddress">Email <span
-            class="form__span--asterisk">&#42;</span></label>
-        <input class="form__box form__box--emailaddress" type="email" id="emailaddress" name="emailaddress"
-          placeholder="nombre.apellidos@mail.com" required />
-
-        <label class="form__label form__label--telefphone" for="telephone">Teléfono</label>
-        <input class="form__box form__box--telephone" type="tel" id="telephone" name="telephone"
-          placeholder="Ej: 123456789" />
-
-        <label class="form__label form__label--message" for="message">
-          Mensaje <span class="form__span--asterisk">&#42;</span></label>
-        <textarea class="form__box form__box--message" cols="8" rows="80" placeholder="¿Qué necesitas?"
-          required></textarea>
-
-        <input class="form__button" type="submit" value="ENVIAR" />
-      </form>
-    </section>
+  <include src="./partials/section1_cont.html"></include>
+  <include src="./partials/section2_cont.html"></include>
   </main>
   <include src="./partials/footer.html"></include>
 </body>

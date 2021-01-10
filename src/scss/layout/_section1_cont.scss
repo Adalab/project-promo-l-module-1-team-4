@@ -5,36 +5,36 @@
   margin: 0 15px 0 15px;
 
   &__title {
-    font-family: "Rubik", sans-serif;
+    font-family: $font_Rubik;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.88;
     text-align: center;
-    color: var(--blue-green);
+    color: $font_blue-green;
     text-transform: uppercase;
     padding-top: 30px;
     }
 
   &__text {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-family: $font_OpenSans;
+    font-size: $font_size_text;
     font-weight: normal;
     line-height: 1.5;
     text-align: center;
-    color: var(--grey);
+    color: $font_grey;
     margin: 15px 0 30px 0;
   
     &--small{
-      font-family: "Open Sans", sans-serif;
+      font-family: $font_OpenSans;
       font-size: 12px;
       font-weight: normal;
       line-height: 1.5;
       text-align: center;
-      color: var(--grey);
+      color: $font_grey;
       margin: 0 0 58px 0;
       
       &--asterisk {
-        color: var(--aqua);
+        color: $font_aqua;
       }
     }
   }
