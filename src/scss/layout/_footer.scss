@@ -1,6 +1,6 @@
 /*FOOTER*/
 .footer {
-  border-top: solid 1px var(--cool-grey);
+  border-top: solid 1px $border_cool-grey;
 
   &__wrapper {
     height: 250px;
@@ -11,10 +11,10 @@
     margin: 0px 15px;
 
     &--copy {
-      font-family: "Open Sans", sans-serif;
+      font-family: $font_OpenSans;
       font-size: 14px;
       line-height: 20px;
-      color: var(--cool-grey);
+      color: $font_cool-grey;
       margin: 30px 59px 0px 59px;
     }
     &--nav {
@@ -34,10 +34,10 @@
 }
 
 .text-link {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font_OpenSans;
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--grey);
+  color: $font_grey;
 }
 
 @media all and (min-width: 768px) {

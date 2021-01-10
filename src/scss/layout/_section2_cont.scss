@@ -4,9 +4,9 @@
   height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: repeat (9, 1fr);
-  font-family: "Open Sans", sans-serif;
+  font-family: $font_OpenSans;
   font-size: 14px;
-  color: #54585a;
+  color: $font_grey;
 
   &__label {
     margin-bottom: 7px;
@@ -14,7 +14,7 @@
 
   &__box {
     margin-bottom: 13px;
-    border: solid 1px #b8b8b9;
+    border: solid 1px $border_cool-grey;
     height: 45px;
     padding: 11px 0px 15px 15px;
 
@@ -25,26 +25,26 @@
   &__button {
     border-radius: 4px;
     border: none;
-    color: white;
+    color: $font_white;
     height: 45px;
-    background-color: #099d8d;
+    background-color: $background_blue-green;
     margin: 17px 0px 60px 0px;
   }
 
   &__span {
     &--asterisk {
-      color: #14d9c4;
+      color: $font_aqua;
     }
   }
 }
 
 input::placeholder {
-  color: #b8b8b9;
+  color: $font_cool-grey;
 }
 textarea::placeholder {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font_OpenSans;
   font-size: 14px;
-  color: #b8b8b9;
+  color: $font_cool-grey;
 }
 input {
   -webkit-appearance: none;
