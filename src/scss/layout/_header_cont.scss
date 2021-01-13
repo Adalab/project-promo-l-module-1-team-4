@@ -77,3 +77,11 @@
     }
   }
 }
+.nav__link {
+  transition: color font-size scale;
+  transition-duration: 1s;
+}
+.nav__link:hover {
+  color: $font_black;
+  font-size: 17px;
+}

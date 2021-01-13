@@ -93,6 +93,24 @@
   color: $font_blue-green;
   padding-top: 15px;
 }
+/*TRANSITION SEPIA AND SCALE*/
+.member__retrait {
+  transition: filter scale ease;
+  transition-duration: 1s;
+}
+.member__retrait:hover {
+  filter: sepia(100%);
+  transform: scale(1.2, 1.2);
+}
+/*TRANSITION SCALE SOCIAL*/
+.member__link {
+  transition: scale;
+  transition-duration: 1s;
+}
+.member__link:hover {
+  transform: scale(1.5, 1.5);
+}
+
 @media all and (min-width: 768px) {
   .member__img--left {
     grid-row: 1;
