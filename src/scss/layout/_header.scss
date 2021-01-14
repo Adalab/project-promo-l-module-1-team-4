@@ -29,6 +29,12 @@
       height: 60px;
       padding: 15px 80px;
       opacity: 0.95;
+      transition: color font-size scale;
+      transition-duration: 1s;
+      &:hover {
+        color: $font_black;
+        font-size: 19px;
+      }
       @media all and (min-width: 768px) {
         padding: 15px 0px 15px 0px;
       }
@@ -41,6 +47,7 @@
     height: 420px;
   }
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -64,6 +71,12 @@
   }
   &__link {
     padding: 10px;
+    transition: color font-size scale;
+    transition-duration: 1s;
+    &:hover {
+      color: $font_blue-green;
+      font-size: 17px;
+    }
     &--padding {
       @media all and (min-width: 768px) {
         padding-right: 0px;
@@ -71,14 +84,7 @@
     }
   }
 }
-.nav__link {
-  transition: color font-size scale;
-  transition-duration: 1s;
-}
-.nav__link:hover {
-  color: $font_blue-green;
-  font-size: 17px;
-}
+
 .hero {
   background-image: url(../images/fondo-bueno.jpg);
   background-repeat: no-repeat;
@@ -98,6 +104,9 @@
     padding: 14px 15px 16px;
     position: relative;
     bottom: -387px;
+    &:first-letter {
+      text-transform: capitalize;
+    }
     @media all and (min-width: 768px) {
       background-color: $background_white;
       margin: -55px 281px 0px 46px;
@@ -112,7 +121,4 @@
       line-height: 1.25;
     }
   }
-}
-.hero__motto:first-letter {
-  text-transform: capitalize;
 }
