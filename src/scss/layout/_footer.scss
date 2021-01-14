@@ -1,10 +1,8 @@
 .footer {
   border-top: solid 1px $border_cool-grey;
-
   &__wrapper {
     height: 250px;
-    display: flex;
-    flex-direction: column;
+    @include flexColumn();
     justify-content: center;
     align-items: center;
     margin: 0px 15px;
@@ -19,7 +17,6 @@
       height: 161px;
       margin: 0px 138px;
     }
-
     &--copy {
       font-family: $font_OpenSans;
       font-size: 14px;
@@ -32,8 +29,7 @@
       }
     }
     &--nav {
-      display: flex;
-      flex-direction: column;
+      @include flexColumn();
       justify-content: center;
       align-items: center;
       list-style: none;
@@ -41,9 +37,6 @@
       margin: 20px 88px 0px 88px;
       @media all and (min-width: 768px) {
         height: 90px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: flex-end;
         line-height: 30px;
         margin: 20px 0px 0px 0px;
@@ -63,7 +56,6 @@
     }
   }
 }
-
 .text-link {
   font-family: $font_OpenSans;
   font-size: 14px;

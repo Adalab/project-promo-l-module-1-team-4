@@ -18,8 +18,7 @@
       padding: 15px 138px 15px 142px;
     }
     &--white {
-      /* @include t("Rubik", sans-serif, 16px); */
-      font-family: "Rubik", sans-serif;
+      font-family: $font_Rubik;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.88;
@@ -50,13 +49,7 @@
   opacity: 0.9;
   background-color: $background_aqua;
   list-style-type: none;
-  /* @include t("Rubik", sans-serif, 15px); */
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 2;
-  text-transform: uppercase;
-  color: $font_white;
+  @include nav();
   @media all and (min-width: 768px) {
     background-color: $background_blue-green;
     height: 60px;
@@ -86,7 +79,6 @@
   height: 421px;
   padding-right: 0px;
   &__motto {
-    /* @include t("Open Sans", sans-serif, 18px); */
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;

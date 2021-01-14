@@ -4,7 +4,6 @@
   background-size: cover;
   height: 421px;
   padding-right: 0px;
-
   &__title {
     position: fixed;
     width: 100%;
@@ -23,7 +22,6 @@
       background-color: $background_blue-green;
       padding: 15px 138px 15px 142px;
     }
-
     &--white {
       font-family: "Rubik", sans-serif;
       font-size: 16px;
@@ -47,7 +45,6 @@
     height: 420px;
   }
 }
-
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,12 +54,7 @@
   opacity: 0.9;
   background-color: $background_aqua;
   list-style-type: none;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 2;
-  text-transform: uppercase;
-  color: $font_white;
+  @include nav();
   @media all and (min-width: 768px) {
     background-color: $background_blue-green;
     height: 60px;
@@ -70,18 +62,16 @@
   }
   &__link {
     padding: 10px;
+    transition: color font-size scale;
+    transition-duration: 1s;
     &--padding {
       @media all and (min-width: 768px) {
         padding-right: 0px;
       }
     }
   }
-}
-.nav__link {
-  transition: color font-size scale;
-  transition-duration: 1s;
-}
-.nav__link:hover {
-  color: $font_black;
-  font-size: 17px;
+  &__link:hover {
+    color: $font_black;
+    font-size: 17px;
+  }
 }

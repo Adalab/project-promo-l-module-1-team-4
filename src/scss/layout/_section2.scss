@@ -1,6 +1,5 @@
 .section-2 {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn();
   @media all and (min-width: 768px) {
     margin-bottom: 60px;
   }
@@ -20,8 +19,7 @@
   background-color: $font_white;
 }
 .member {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn();
   justify-content: center;
   align-items: center;
   @media all and (min-width: 768px) {
@@ -61,10 +59,8 @@
 
   &__about--us {
     text-align: center;
-    font-family: $font_OpenSans;
-    font-size: 16px;
+    @include font();
     line-height: 1.5;
-    color: $font_grey;
     margin: 0 15px 0 15px;
     @media all and (min-width: 768px) {
       margin: 0px;
@@ -129,16 +125,14 @@
     &__left {
       grid-row: 1;
       grid-column: 2;
-      display: flex;
-      flex-direction: column;
+      @include flexColumn();
       align-items: flex-start;
       margin-right: 44px;
     }
     &__right {
       grid-row: 1;
       grid-column: 1;
-      display: flex;
-      flex-direction: column;
+      @include flexColumn();
       align-items: flex-end;
       margin-left: 44px;
     }

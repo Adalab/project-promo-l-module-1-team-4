@@ -1,6 +1,5 @@
 .team {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn();
   align-items: center;
   margin: 0 15px 0 15px;
   background-color: $background_white;
@@ -10,7 +9,6 @@
   @media all and (min-width: 1200px) {
     margin: 0 300px 0px 300px;
   }
-
   &__title {
     font-family: $font_Rubik;
     font-size: 24px;
@@ -24,17 +22,13 @@
       color: $font_blue-green;
     }
   }
-
   &__text {
-    font-family: $font_OpenSans;
-    font-size: $font_size_text;
+    @include font();
     font-weight: normal;
     line-height: 1.5;
     text-align: center;
-    color: $font_grey;
     margin: 15px 0 30px 0;
     @media all and (min-width: 768px) {
-      color: $font_grey;
       opacity: 0.67;
     }
   }
@@ -48,8 +42,7 @@
   }
 }
 .strengths-weaknesses {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn();
   align-items: center;
   background-color: rgba(184, 184, 185, 0.2);
   @media all and (min-width: 768px) {
@@ -60,33 +53,28 @@
 
   &__sw {
     width: 100%;
-  
     &--title {
-    font-family: $font_Rubik;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 45px;
-    text-align: center;
-    color: $font_blue-green;
-    text-transform: capitalize;
-    padding: 30px 0 0 0;
+      font-family: $font_Rubik;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 45px;
+      text-align: center;
+      color: $font_blue-green;
+      text-transform: capitalize;
+      padding: 30px 0 0 0;
     }
     &--text1 {
-      font-family: $font_OpenSans;
-      font-size: $font_size_text;
+      @include font();
       font-weight: normal;
       line-height: 1.5;
       text-align: center;
-      color: $font_grey;
       margin: 0 15px 0 15px;
     }
     &--text2 {
-      font-family: $font_OpenSans;
-      font-size: $font_size_text;
+      @include font();
       font-weight: normal;
       line-height: 1.5;
       text-align: center;
-      color: $font_grey;
       margin: 0 15px 45px 15px;
     }
   }
@@ -96,21 +84,20 @@
     /* display: flex;
     flex-direction: row;
     align-items: flex-start; */
-  
     &__sw--sw1 {
       margin: 0 0 0 45px;
     }
     &__sw--sw2 {
-    margin: 0 45px 0 0;
+      margin: 0 45px 0 0;
     }
     &__sw--title1 {
       margin: 0 15px 0 0;
-      }
+    }
     &__sw--text1 {
       margin: 0 15px 0 0;
-      }
+    }
     &__sw--title2 {
-    margin: 0 0 0 15px;
+      margin: 0 0 0 15px;
     }
     &__sw--text2 {
       margin: 0 0 45px 15px;
@@ -122,18 +109,18 @@
     margin: 0 0 0 138px;
   }
   .strengths-weaknesses__sw--title1 {
-      margin: 0 22.5px 0 0;
-    }
+    margin: 0 22.5px 0 0;
+  }
   .strengths-weaknesses__sw--text1 {
-      margin: 0 22.5px 0 0;
-    }
+    margin: 0 22.5px 0 0;
+  }
   .strengths-weaknesses__sw--sw2 {
-      margin: 0 138px 60px 0;
-    }
+    margin: 0 138px 60px 0;
+  }
   .strengths-weaknesses__sw--title2 {
-      margin: 0 0 0 22.5px;
-    }
+    margin: 0 0 0 22.5px;
+  }
   .strengths-weaknesses__sw--text2 {
-      margin: 0 0 0 22.5px;
-    }
+    margin: 0 0 0 22.5px;
+  }
 }
