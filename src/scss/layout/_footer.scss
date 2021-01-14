@@ -8,6 +8,17 @@
     justify-content: center;
     align-items: center;
     margin: 0px 15px;
+    @media all and (min-width: 768px) {
+      height: 170px;
+      justify-content: flex-start;
+      align-content: space-between;
+      flex-wrap: wrap;
+      margin: 0px 45px;
+    }
+    @media all and (min-width: 1200px) {
+      height: 161px;
+      margin: 0px 138px;
+    }
 
     &--copy {
       font-family: $font_OpenSans;
@@ -15,6 +26,10 @@
       line-height: 20px;
       color: $font_cool-grey;
       margin: 30px 59px 0px 59px;
+      @media all and (min-width: 768px) {
+        height: 20px;
+        margin: 30px 0px 0px 0px;
+      }
     }
     &--nav {
       display: flex;
@@ -24,35 +39,7 @@
       list-style: none;
       line-height: 20px;
       margin: 20px 88px 0px 88px;
-    }
-    &--img {
-      margin: 30px 87px 41px 87px;
-      height: 45px;
-    }
-  }
-}
-
-.text-link {
-  font-family: $font_OpenSans;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: $font_grey;
-}
-
-@media all and (min-width: 768px) {
-  .footer {
-    &__wrapper {
-      height: 170px;
-      justify-content: flex-start;
-      align-content: space-between;
-      flex-wrap: wrap;
-      margin: 0px 45px;
-
-      &--copy {
-        height: 20px;
-        margin: 30px 0px 0px 0px;
-      }
-      &--nav {
+      @media all and (min-width: 768px) {
         height: 90px;
         display: flex;
         flex-direction: column;
@@ -62,22 +49,24 @@
         margin: 20px 0px 0px 0px;
         order: 3;
       }
-      &--img {
+      @media all and (min-width: 1200px) {
+        margin: 24px 0px 0px 0px;
+      }
+    }
+    &--img {
+      margin: 30px 87px 41px 87px;
+      height: 45px;
+      @media all and (min-width: 768px) {
         height: 45px;
         margin: 15px 0px 0px 0px;
       }
     }
   }
 }
-@media all and (min-width: 1200px) {
-  .footer {
-    &__wrapper {
-      height: 161px;
-      margin: 0px 138px;
-      
-      &--nav {
-        margin: 24px 0px 0px 0px;
-      }
-    }
-  }
+
+.text-link {
+  font-family: $font_OpenSans;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $font_grey;
 }
