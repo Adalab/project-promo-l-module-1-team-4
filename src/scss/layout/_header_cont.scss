@@ -40,9 +40,23 @@
         color: $font_black;
         font-size: 19px;
       }
+      /*animation-name: demo;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;*/
       @media all and (min-width: 768px) {
         padding: 15px 0px 15px 0px;
       }
+      /*@keyframes demo{
+        from {
+            transform: color($font_white);
+        }
+        50% {
+            transform: color(purple);
+        }
+        100%{
+            transform: color($font_white);
+        }
+      }*/
     }
   }
   @media all and (min-width: 768px) {
@@ -52,7 +66,6 @@
     height: 420px;
   }
 }
-
 .nav {
   display: flex;
   justify-content: space-around;
@@ -62,12 +75,7 @@
   opacity: 0.9;
   background-color: $background_aqua;
   list-style-type: none;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 2;
-  text-transform: uppercase;
-  color: $font_white;
+  @include nav();
   @media all and (min-width: 768px) {
     background-color: $background_blue-green;
     height: 60px;
@@ -75,10 +83,10 @@
   }
   &__link {
     padding: 10px;
-    transition: color font-size scale;
-    transition-duration: 1s;
+    transition: font-size;
+    transition-duration: 0s;
     &:hover {
-      color: $font_black;
+      color: $font_white;
       font-size: 17px;
     }
     &--padding {
@@ -87,4 +95,8 @@
       }
     }
   }
+  // &__link:hover {
+  //   color: $font_white;
+  //   font-size: 17px;
+  // }
 }
