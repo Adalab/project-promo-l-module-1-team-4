@@ -64,14 +64,6 @@
     }
   }
 }
-.nav__link {
-  transition: color font-size scale;
-  transition-duration: 1s;
-}
-.nav__link:hover {
-  color: $font_blue-green;
-  font-size: 17px;
-}
 .hero {
   background-image: url(../images/fondo-bueno.jpg);
   background-repeat: no-repeat;

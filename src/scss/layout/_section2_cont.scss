@@ -43,7 +43,8 @@
     height: 45px;
     background-color: $background_blue-green;
     margin: 17px 0px 60px 0px;
-
+    transition: font-size;
+    transition-duration: 0s;
     @media all and (min-width: 768px) {
       width: 206px;
       justify-self: end;
@@ -54,6 +55,10 @@
       justify-self: end;
       order: 9;
     }
+  }
+  &__button:hover {
+    font-size: 16px;
+    font-weight: 600;
   }
   &__span {
     &--asterisk {

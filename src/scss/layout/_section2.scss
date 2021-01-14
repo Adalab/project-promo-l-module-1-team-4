@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    transition: filter scale ease;
+    transition: filter scale border ease;
     transition-duration: 1s;
     @media all and (min-width: 768px) {
       width: 205px;
@@ -53,7 +53,7 @@
     }
   }
   &__retrait:hover {
-    filter: sepia(100%);
+    border: solid $background_blue-green 5px;
     transform: scale(1.2, 1.2);
   }
 

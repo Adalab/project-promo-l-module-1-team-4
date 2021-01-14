@@ -61,4 +61,10 @@
   font-size: 14px;
   text-transform: uppercase;
   color: $font_grey;
+  transition: filter scale border ease;
+  transition-duration: 1s;
+}
+.text-link:hover {
+  color: $font_blue-green;
+  font-size: 17px;
 }
