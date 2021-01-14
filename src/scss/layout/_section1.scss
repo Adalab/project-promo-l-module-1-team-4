@@ -4,6 +4,12 @@
   align-items: center;
   margin: 0 15px 0 15px;
   background-color: $background_white;
+  @media all and (min-width: 768px) {
+    margin: 0 45px 0 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 0 300px 0px 300px;
+  }
 
   &__title {
     font-family: $font_Rubik;
@@ -14,7 +20,10 @@
     color: $font_aqua;
     text-transform: uppercase;
     padding-top: 30px;
+    @media all and (min-width: 768px) {
+      color: $font_blue-green;
     }
+  }
 
   &__text {
     font-family: $font_OpenSans;
@@ -24,6 +33,10 @@
     text-align: center;
     color: $font_grey;
     margin: 15px 0 30px 0;
+    @media all and (min-width: 768px) {
+      color: $font_grey;
+      opacity: 0.67;
+    }
   }
   &__square {
     background-color: $background_white;
@@ -39,6 +52,11 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(184, 184, 185, 0.2);
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
   &__sw {
     width: 100%;
@@ -74,23 +92,10 @@
   }
 }
 @media all and (min-width: 768px) {
-
-  .team {
-    margin: 0 45px 0 45px;
-    
-    &__title {
-      color: $font_blue-green;
-    }
-    &__text {
-      color: $font_grey;
-      opacity: 0.67;
-    }
-  }  
-  
   .strengths-weaknesses {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-start; */
   
     &__sw--sw1 {
       margin: 0 0 0 45px;
@@ -113,18 +118,8 @@
   }
 }
 @media all and (min-width: 1200px) {
-  .team {
-    margin: 0 300px 0px 300px;
-  }
   .strengths-weaknesses__sw--sw1 {
     margin: 0 0 0 138px;
-
-   /*&--title1 {
-        margin: 0 22.5px 0 0;
-    }
-    &--text1 {
-    margin: 0 22.5px 0 0;
-    }*/
   }
   .strengths-weaknesses__sw--title1 {
       margin: 0 22.5px 0 0;
@@ -135,14 +130,6 @@
   .strengths-weaknesses__sw--sw2 {
       margin: 0 138px 60px 0;
     }
-  
-    /*&--title2 {
-      margin: 0 0 0 22.5px;
-    }
-    &--text2 {
-      margin: 0 0 0 22.5px;
-    }
-  }*/
   .strengths-weaknesses__sw--title2 {
       margin: 0 0 0 22.5px;
     }

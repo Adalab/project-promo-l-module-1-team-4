@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
   margin: 0 15px 0 15px;
+  @media all and (min-width: 768px) {
+    margin: 0 163px 0 163px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 0 300px 0 300px;
+  }
 
   &__title {
     font-family: $font_Rubik;
@@ -13,7 +19,10 @@
     color: $font_blue-green;
     text-transform: uppercase;
     padding-top: 30px;
+    @media all and (min-width: 1200px) {
+      padding-top: 45px;
     }
+  }
 
   &__text {
     font-family: $font_OpenSans;
@@ -36,20 +45,6 @@
       &--asterisk {
         color: $font_aqua;
       }
-    }
-  }
-}
-@media all and (min-width: 768px) {
-  .section1 {
-    margin: 0 163px 0 163px;
-  }
-}
-@media all and (min-width: 1200px) {
-  .section1 {
-    margin: 0 300px 0 300px;
-
-    &__title {
-      padding-top: 45px;
     }
   }
 }
