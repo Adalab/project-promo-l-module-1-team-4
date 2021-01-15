@@ -42,9 +42,9 @@
             transform: color($font_white);
         }
         50% {
-            transform: color(purple);
+            transform: color(180deg);
         }
-        to{
+        100%{
             transform: color($font_white);
         }
       }
@@ -97,9 +97,6 @@
   background-size: cover;
   height: 421px;
   padding-right: 0px;
-  @media all and (min-width: 1200px) {
-     height: 550px;
-   }
   &__motto {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -120,8 +117,6 @@
       margin: -55px 281px 0px 46px;
       padding: 15px 30px;
       opacity: 0.8;
-      bottom: -366px;
-      width: 441px; 
     }
     @media all and (min-width: 1200px) {
       margin: -55px 488px 0 138px;
@@ -129,8 +124,6 @@
       opacity: 0.8;
       font-size: 24px;
       line-height: 1.25;
-      width: 574px;
-      bottom: -490px;
     }
   }
 }
