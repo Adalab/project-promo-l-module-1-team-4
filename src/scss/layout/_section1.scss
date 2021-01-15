@@ -1,13 +1,13 @@
 .team {
   @include flexColumn();
   align-items: center;
-  margin: 0 15px 0 15px;
+  margin: 0px 15px 0 15px;
   background-color: $background_white;
   @media all and (min-width: 768px) {
     margin: 0 45px 0 45px;
   }
   @media all and (min-width: 1200px) {
-    margin: 0 300px 0px 300px;
+    margin: 135px 300px 0px 300px;
   }
   &__title {
     font-family: $font_Rubik;
