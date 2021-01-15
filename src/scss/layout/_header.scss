@@ -4,17 +4,16 @@
     width: 100%;
     top: 0;
     z-index: 999;
+    background-color: $background_blue-green;
     @media all and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: $background_blue-green;
       padding: 15px 45px 15px 45px;
       opacity: 0.95;
       height: 60px;
     }
     @media all and (min-width: 1200px) {
-      background-color: $background_blue-green;
       padding: 15px 138px 15px 142px;
     }
     &--white {
@@ -23,31 +22,27 @@
       font-weight: 500;
       line-height: 1.88;
       color: $font_white;
-      background-color: $background_blue-green;
       text-align: center;
       height: 60px;
       padding: 15px 80px;
       opacity: 0.95;
       animation-name: demo;
-      animation-duration: 2s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
-      /*transition: color font-size scale;
-      transition-duration: 1s;
-      &:hover {
-        color: $font_black;
-        font-size: 19px;
-      }*/
-      @keyframes demo{
-        from {
-            transform: color($font_white);
+      animation-timing-function: ease-in-out;
+      @keyframes demo {
+        0% {
+          color: $font-white;
         }
         50% {
-            transform: color(180deg);
+          color: $font_cool-grey;
+          transform: scale(1, 1);
         }
-        100%{
-            transform: color($font_white);
+        100% {
+          color: $font_white;
         }
       }
+
       @media all and (min-width: 768px) {
         padding: 15px 0px 15px 0px;
       }
@@ -97,6 +92,9 @@
   background-size: cover;
   height: 421px;
   padding-right: 0px;
+  @media all and (min-width: 1200px) {
+    height: 550px;
+  }
   &__motto {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -117,6 +115,8 @@
       margin: -55px 281px 0px 46px;
       padding: 15px 30px;
       opacity: 0.8;
+      bottom: -366px;
+      width: 441px;
     }
     @media all and (min-width: 1200px) {
       margin: -55px 488px 0 138px;

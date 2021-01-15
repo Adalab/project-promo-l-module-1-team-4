@@ -9,17 +9,18 @@
     width: 100%;
     top: 0;
     z-index: 999;
+    background-color: $background_blue-green;
     @media all and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: $background_blue-green;
+      /*       background-color: $background_blue-green;*/
       padding: 15px 45px 15px 45px;
       opacity: 0.95;
       height: 60px;
     }
     @media all and (min-width: 1200px) {
-      background-color: $background_blue-green;
+      /*       background-color: $background_blue-green;*/
       padding: 15px 138px 15px 142px;
     }
     &--white {
@@ -28,34 +29,26 @@
       font-weight: 500;
       line-height: 1.88;
       color: $font_white;
-      /*background-color: $background_blue-green;*/
+      /*       background-color: $background_blue-green;*/
       text-align: center;
       height: 60px;
       padding: 15px 80px;
       opacity: 0.95;
       font-size: 16px;
-      /*transition: color font-size scale;
-      transition-duration: 1s;
-      &:hover {
-        color: $font_black;
-        font-size: 19px;
-      }*/
       animation-name: demo;
-      animation-duration: 10s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
-      animation-timing-function: ease-in;
-      @keyframes demo{
-        15% {
+      animation-timing-function: ease-in-out;
+      @keyframes demo {
+        0% {
           color: $font-white;
         }
-        33% {
-          color: $font_black;
-        }
-        66% {
-          color: $font-white;
+        50% {
+          color: $font_cool-grey;
+          transform: scale(1.5, 1.5);
         }
         100% {
-          color: $font_aqua;
+          color: $font_white;
         }
       }
       @media all and (min-width: 768px) {
