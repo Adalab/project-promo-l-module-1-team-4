@@ -28,11 +28,25 @@
       height: 60px;
       padding: 15px 80px;
       opacity: 0.95;
-      transition: color font-size scale;
+      animation-name: demo;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      /*transition: color font-size scale;
       transition-duration: 1s;
       &:hover {
         color: $font_black;
         font-size: 19px;
+      }*/
+      @keyframes demo{
+        from {
+            transform: color($font_white);
+        }
+        50% {
+            transform: color(purple);
+        }
+        to{
+            transform: color($font_white);
+        }
       }
       @media all and (min-width: 768px) {
         padding: 15px 0px 15px 0px;

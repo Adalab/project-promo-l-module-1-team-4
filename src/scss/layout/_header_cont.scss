@@ -28,35 +28,39 @@
       font-weight: 500;
       line-height: 1.88;
       color: $font_white;
-      background-color: $background_blue-green;
+      /*background-color: $background_blue-green;*/
       text-align: center;
       height: 60px;
       padding: 15px 80px;
       opacity: 0.95;
       font-size: 16px;
-      transition: color font-size scale;
+      /*transition: color font-size scale;
       transition-duration: 1s;
       &:hover {
         color: $font_black;
         font-size: 19px;
+      }*/
+      animation-name: demo;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      @keyframes demo{
+        15% {
+          color: $font-white;
+        }
+        33% {
+          color: $font_black;
+        }
+        66% {
+          color: $font-white;
+        }
+        100% {
+          color: $font_aqua;
+        }
       }
-      /*animation-name: demo;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;*/
       @media all and (min-width: 768px) {
         padding: 15px 0px 15px 0px;
       }
-      /*@keyframes demo{
-        from {
-            transform: color($font_white);
-        }
-        50% {
-            transform: color(purple);
-        }
-        100%{
-            transform: color($font_white);
-        }
-      }*/
     }
   }
   @media all and (min-width: 768px) {
@@ -95,8 +99,4 @@
       }
     }
   }
-  // &__link:hover {
-  //   color: $font_white;
-  //   font-size: 17px;
-  // }
 }
