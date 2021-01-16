@@ -27,7 +27,7 @@
       padding: 15px 80px;
       opacity: 0.95;
       animation-name: demo;
-      animation-duration: 3s;
+      animation-duration: 5s;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
       @keyframes demo {
@@ -124,6 +124,8 @@
       opacity: 0.8;
       font-size: 24px;
       line-height: 1.25;
+      width: 574px;
+      bottom: -490px;
     }
   }
 }
