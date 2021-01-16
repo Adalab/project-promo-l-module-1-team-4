@@ -1,7 +1,7 @@
 .team {
   @include flexColumn();
   align-items: center;
-  margin: 0px 15px 0 15px;
+  margin: 40px 15px 0 15px;
   background-color: $background_white;
   @media all and (min-width: 768px) {
     margin: 0 45px 0 45px;

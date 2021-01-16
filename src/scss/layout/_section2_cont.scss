@@ -1,8 +1,8 @@
 .form {
   margin: 0px 15px;
   display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr;
+/*   height: 100vh;
+ */  grid-template-columns: 1fr;
   grid-template-rows: 26px 58px 26px 58px 26px 58px 26px 135px 45px;
   @include font();
   font-size: 14px;
