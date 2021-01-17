@@ -1,24 +1,23 @@
 .form {
-  margin: 0px 15px;
+  margin: 0px 15px 60px 15px;
   display: grid;
-/*   height: 100vh;
- */  grid-template-columns: 1fr;
+  /*   height: 100vh;
+ */
+  grid-template-columns: 1fr;
   grid-template-rows: 26px 58px 26px 58px 26px 58px 26px 135px 45px;
   @include font();
   font-size: 14px;
   @media all and (min-width: 768px) {
-    margin: 0px 163px;
+    margin: 0px 163px 60px 163px;
   }
   @media all and (min-width: 1200px) {
-    margin: 0px 300px;
+    margin: 0px 300px 120px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 26px 58px 26px 58px 26px 135px 45px;
   }
-
   &__label {
     margin-bottom: 7px;
   }
-
   &__box {
     margin-bottom: 13px;
     border: solid 1px $border_cool-grey;
@@ -42,7 +41,7 @@
     color: $font_white;
     height: 45px;
     background-color: $background_blue-green;
-    margin: 17px 0px 60px 0px;
+    margin: 0px 0px 0px 0px;
     transition: font-size;
     transition-duration: 0s;
     @media all and (min-width: 768px) {
